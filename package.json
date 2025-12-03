@@ -1,0 +1,12 @@
+{
+  "name": "time4o-docs",
+  "type": "module",
+  "devDependencies": {
+    "vitepress": "^1.0"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev --port 5170",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  }
+}

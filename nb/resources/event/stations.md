@@ -1,0 +1,89 @@
+# Stasjoner
+
+Alle inndata (input) i forbindelse med tidtakingen kommer fra stasjoner. En stasjon kan for eksempel være en Emit MTR, en ETS som sender meldinger via Emit sin server eller en "manuell" stasjon med mulighet for å sette en tid.
+
+[Les mer om stasjonstyper](/nb/guide/station-types)
+
+### Løpsstasjoner
+
+En stasjon må kobles mot en løp via en løpsstasjon for at Time4o skal skjønne hvilket løp avlesingen gjelder for i de tilfeller arrangementet består av flere løp. 
+En stasjon kan bestå av flere aktive løpsstasjoner og dermed håndtere avlesinger mot flere parallelle løp (f.eks. om individuelt og stafett går samtidig)
+
+Ved f.eks. en brikkeavlesing så sjekker Time4o hvilke løp som ligger på stasjonens løpsstasjoner.
+Deretter leter Time4o blant påmeldingene i disse løpene for å finne påmeldingen som dataene skal knyttes mot. Dette gjøres ved hjelp av brikkenummeret eller startnummeret på stasjonsdataene.
+
+#### Brikketype
+
+I tilfeller der løperne løper med flere brikker kan det angis hvilke brikketype denne stasjonen håndterer. 
+Dette er kun nødvendig om det er fare for at de ulike brikkene har overlappende brikkenummer. 
+
+#### Andre innstillinger
+
+Øvrige instillinger på løpsstasjonen brukes når stasjonsdataene skal prosesseres, dvs. produsere tidtakingsdata.
+
+
+#### Infoskjerm
+
+Hvis stasjonen i tillegg til å produsere tidtakingsdata, skal levere meldinger til en [infoskjerm](/nb/resources/event/info-screens) (f.eks. brikkesjekk) så settes dette opp på løpsstasjonen.
+
+
+## Opprette stasjon og løpsstasjon
+
+For å produsere [stasjonsdata og tidtakingsdata](/nb/guide/timing) må det opprettes en stasjon og en løpsstasjon.
+I de fleste løp kan dette gjøres automatisk når arrangementet opprettes.
+
+1. Gå til "Tidtaking > Stasjoner" og velg "Ny"
+2. Velg [stasjonstype](/nb/guide/station-types) (tilkoblet via USB)
+3. Skriv inn valgfritt navn eller behold det som foreslåes.
+4. Lagre stasjonen
+5. Velg "Ny" under fanen "Løpsstasjoner"
+6. Velg løp
+7. Velg type tidtakingsdata. I et vanlig løp med brikkeavlesing skal alt bortsett fra "Poeng" velges.
+8. Øvrig valg skal være uendret.
+9. Lagre løpsstasjonen
+
+## Felter
+
+### Stasjon
+
+| Felt             | Beskrivelse                 |
+|------------------|-----------------------------|
+| Stasjonstype | Stasjonstype                |
+| Navn             | Valgfritt navn på stasjonen |
+
+### Løpsstasjon
+
+
+| Felt | Beskrivelse                                                                                                                                                        |
+|--|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Aktiv | Løpsstasjonen er aktiv og skal brukes. Ved f.eks. et flerdagersarrangement kan løpsstasjonene klargjøres for alle løp, men kun aktiveres den dagen de skal brukes. |
+
+##### Løp
+
+| Felt | Beskrivelse                                                   |
+|--|---------------------------------------------------------------|
+| Løp | Tidtakingsdata skal knyttes mot påmeldinger i dette løpet.    |
+| Klasser | Tidtakingsdata skal knyttes mot påmeldinger i disse klassene. |
+
+##### Tidtakingsdata
+
+| Felt                   | Beskrivelse                                                                                                                                                                      |
+|------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Type                   | Hvilke typer tidtakingsdata skal produseres (status, starttid, måltid osv.)                                                                                                      |
+| Prioritet løpsstasjon  | Hvordan skal påmeldingens tidtakingsdata fra denne løpsstasjonen prioriteres i forhold til samme type tidtakingsdata fra andre løpsstasjoner. Lavere tall betyr bedre prioritet. |
+| Prioritet data         | Hvilken tidtakingsdata skal benyttes om påmeldingen har flere av samme type tidtakingsdata fra samme løpsstasjon (Typisk flere avlesinger av samme brikke på samme stasjon)      |
+| Sett data til inaktive | Sett data inaktive slik at de ikke brukes i tidtakingen, men kan aktiveres manuelt om ønskelig.                                                                                  |
+
+##### Andre innstillinger
+
+| Felt                            | Beskrivelse                                                                                                                                                   |
+|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Brikketype                      | Kun koble data mot brikker med denne brikketypen.                                                                                                             |
+| Lås status | Stasjonen skal alltid gi påmelding denne statusen. Brukes f.eks. til startsjekk der deltageren får status ***Startet***                                       |
+
+##### Infoskjermer
+
+| Felt                            | Beskrivelse                           |
+|---------------------------------|---------------------------------------|
+| Infoskjermer                      | Send melding til valgte inforskjermer |
+
