@@ -25,6 +25,10 @@ export default {
       themeConfig: {
         // https://vitepress.dev/reference/default-theme-config
         outlineTitle: "Innhold",
+        editLink: {
+          pattern: 'https://github.com/time4o/time4o-docs/edit/main/:path',
+          text: 'Editér denne siden på GitHub'
+        },
         docFooter: {
           prev: 'Forrige side',
           next: 'Neste side'
