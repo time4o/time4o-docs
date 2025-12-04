@@ -1,7 +1,0 @@
-{
-  "name": "time4o-docs",
-  "compatibility_date": "2025-12-04",
-  "assets": {
-    "directory": ".vitepress/dist"
-  }
-}
