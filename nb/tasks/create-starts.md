@@ -37,17 +37,16 @@ Hvis man kjører en poengserie i Eventor med jaktstart tilslutt så kan Eventor 
 
 ### Excel
 
-Kun til bruk for å opprette og oppdatere starter med startnummer og løyper i stafetter og individuelle løp med gafling. Dette valget oppretter ikke starttider.
-
-Hvis kombinasjonen av klasse, etappe (stafett) og startnummer allerede eksisterer, så oppdateres løypen på den eksisterende starten.
-
 Følgende kolonner støttes:
 - CLASS NAME (obligatorisk)
 - LEG (obligatorisk i stafett)
 - BIB NO (obligatorisk)
+- START TIME
 - COURSE NAME
 
-La COURSE NAME være tom verdi hvis løypen skal fjernes.
+Hvis kombinasjonen av klasse, etappe (stafett) og startnummer allerede eksisterer, så oppdateres eksisterende start.
+
+OBS! Hvis verdien i kolonnen COURSE NAME eller START TIME er tom så vil løypen eller starttiden fjernes fra starten.
 
 ## Tildel løype
 
