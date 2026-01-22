@@ -38,6 +38,12 @@ Hvis en bruker har gjort endringer på en påmelding i Time4o så vil importen i
 Påmeldinger i Time4o med samme [indentifikatortypen](/nb/resources/common/identifiers) som påmeldingene fra importen, vil settes til ***Avmeldt*** hvis de mangler i importen.
 Importen må derfor inneholde en komplett oversikt over alle påmeldinger for den aktuelle indentifikatortypen.
 
+### EQTiming (iSonen)
+
+Importer påmeldinger i EQTiming sitt XML-format som iSonen produserer. (Det er ikke testet i andre sammenhenger)
+
+Importen oppretter klasser, personer, organisasjoner, brikker og knytter dette sammen til påmeldinger. Fila kan importeres flere ganger uten at det blir duplikater.
+
 ### Excel/csv
           
 Påmeldinger, personer, starter etc. kan importeres fra fil. Flere filtyper som .xlsx, .xls, .csv støttes. 
