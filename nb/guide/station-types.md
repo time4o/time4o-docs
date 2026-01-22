@@ -27,6 +27,8 @@ Følgende stasjonstyper støttes av Time4o:
 Det er viktig å oppgradere firmware (programvaren i stasjonen) til påkrevd versjon. 
 Det er gjort vesentlig endringer både i formater og feilfikser i nyere versjoner, og Time4o er ikke nødvendigvis kompatibelt med eldre versjoner  
 
+Brukere av Time4o kan automatisk motta varsel når Emit slipper ny firmware via [denne siden](https://app.time4o.com/emit) (krever Time4o-bruker).
+
 Oppgradering av Emit sin hardware gjøres med Windows-programmet [eUpgrade](https://emit.no/en/support-base/hjelpeprogrammer/).
 
 
