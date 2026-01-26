@@ -33,14 +33,12 @@ Begge oppgaver kan aktiviseres direkte fra dashbordet til arrangementet.
 [LiveRes](https://liveres.live/index.php?time4o) har bygget et lag på toppen av Time4o sine liveresultater,
 noe som innebærer at man kan vise liveresultater i både Time4o Center og LiveRes.
 
+I løp med store klasser og mange mellomtider er Liveres et anbefalt valg pga. av bedre sorteringsalgoritme og respons.
+Liveres har også annen funksjonalitet som stipulering av manglende mellomtider, rundetider, resultater per klubb og startlister for å nevne noe. 
+
 For at LiveRes skal fungere må begge oppgavene som nevnt under punktet **Liveresultater**, være aktive, men det er ikke nødvendig at løpet ligger i et Center.
 
 For at løpet skal vises i listen over løp i LiveRes må valget ***Vis løp i LiveRes*** være aktivt på løpet i Time4o.  
-
-::: warning OBS!
-1. Støtte for strekktider kommer
-2. Det er begrenset støtte for stafett, jaktstart og noen andre konsepter, men det jobbes også med å få dette på plass.
-:::
 
 
 ## Lenker
