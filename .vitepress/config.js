@@ -57,6 +57,7 @@ export default {
                 { text: 'Stafett', link: '/nb/guide/tutorials/relay' },
                 { text: 'Fakturering', link: '/nb/guide/tutorials/invoicing' },
                 { text: 'Poengløp', link: '/nb/guide/tutorials/point-race' },
+                { text: 'Runder', link: '/nb/guide/tutorials/loops' },
               ],
             },
             {
