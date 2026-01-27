@@ -48,7 +48,7 @@ Hver meldepost må settes opp som en egen stasjon.
 8. Pass på at riktig løp er valgt og at ***Type*** er satt til ***Mellomtid***
 9. Lagre løpstasjonen
 
-## Henting av meldinger
+## Henting av meldinger {#fetch-messages}
 
 Oppgaven [Emitserver](/nb/tasks/emit-server) henter meldinger fra Emit sin meldingsserver med et gitt intervall (5 sekunder er standard). 
 Den starter som standard én time før løpets første start og slutter fem timer etter løpets første start, 

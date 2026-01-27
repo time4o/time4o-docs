@@ -43,7 +43,9 @@ Det må opprettes én stasjon med to løpsstasjoner. Det er kritisk at oppskrift
 
 
 
-[//]: # (## Tidtaking)
+## Tidtaking
+
+[Hent meldinger](/nb/guide/tutorials/intermediate-times#fetch-messages) fra Emit sin server på samme måte som ved mellomtider.
 
 [//]: # (## Feilsituasjoner)
 
