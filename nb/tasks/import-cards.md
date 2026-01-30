@@ -9,7 +9,10 @@ category: Cards
 
 ### Beskrivelse
 
-Brikker (leiebrikker) kan importeres til brikkeregisteret fra fil eller fra en stasjon.
+Brikker (leiebrikker) kan importeres til brikkeregisteret fra fil eller en stasjon eller ved å oppgi en brikkenummerserie. 
+
+Importer ***info*** for f.eks. å angi hvem som eier leiebrikkene. 
+
 
 ### Import fra fil
 
@@ -26,16 +29,20 @@ Brikker kan leses inn via en stasjon og importeres til brikkeregisteret.
 Les av brikkene på stasjonen og importér deretter brikkene via denne oppgaven. Det er mulig å importere fra stasjonen flere ganger. 
 Det som er importert tidligere blir ikke importert på nytt.
 
+### Brikkenummerserie (inndata)
+
+Oppgi "fra og til" brikkenummer for å raskt opprette en brikkenummerserie.
+
 
 ### Innstillinger
 
-| Innstilling                    | Beskrivelse                                                                         |
-|--------------------------------|-------------------------------------------------------------------------------------|
-| Brikketype                     | Hvilken brikketype skal brikkene få                                                 |
-| Leiebrikke                     | Marker brikkene som leiebrikker                                                     |
-| Importér info                  | Importér info                                                                       |
-| Info (import fra stasjon)      | Gi brikkene denne infoen                                                            |
-| Overskriv eksisterende brikker | Info og leiebrikke-valget oppdateres for eksisterende brikker med samme brikketype. |
+| Innstilling                          | Beskrivelse                                                                         |
+|--------------------------------------|-------------------------------------------------------------------------------------|
+| Brikketype                           | Hvilken brikketype skal brikkene få                                                 |
+| Merk som leiebrikke                  | Merk brikkene som leiebrikker                                                       |
+| Importér info                        | Importér info                                                                       |
+| Info (import fra stasjon og inndata) | Fritekst-felt som kan brukes fritt. Vises blant annet av avlesing i mål.            |
+| Overskriv eksisterende brikker       | Info og leiebrikke-valget oppdateres for eksisterende brikker med samme brikketype. |
  
 
 
