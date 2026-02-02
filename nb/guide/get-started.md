@@ -1,6 +1,6 @@
 # Introduksjon
 
-Time4o består i hovedsak av to deler, [Time4o Hub](/nb/resources/hub) og [Arrangement](/nb/resources/event) som igjen består av ulike ressurser og [oppgaver](/nb/tasks).
+Time4o består i hovedsak av to deler, [Time4o Hub](/nb/resources/hub/) og [Arrangement](/nb/resources/event/) som igjen består av ulike ressurser og [oppgaver](/nb/tasks).
 I dokumentasjonen er det forsøkt å beskrive hva alle ressursene gjør og hvilke innstillinger de har.
 I tillegg er det laget veiledninger som binder ressursene sammen til ulike løpskonsepter og andre funksjoner.
 
