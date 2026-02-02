@@ -8,7 +8,9 @@ Først må e-postadressene registreres på personene i Time4o, og deretter kjør
 Den enkleste måten å registrere e-postadresser på er å importere de fra et Excel-ark.
 
 
-### Steg 1 - Alternativ A: Hent e-postadresser fra Eventor
+### Steg 1 
+
+#### Alternativ A: Hent e-postadresser fra Eventor
 
 1. Logg inn i Eventor og last ned påmeldingsoversikten i Excel-format
 2. Åpne excel-arket og gjør følgende:
@@ -22,7 +24,7 @@ Den enkleste måten å registrere e-postadresser på er å importere de fra et E
 Merk at e-postadressene i påmeldingsoversikten er e-postadressene til Eventor-brukeren som har utført påmeldingen, og ikke nødvendigvis personen som er påmeldt. 
 :::
 
-### Steg 1 - Alternativ B: Opprett Excel-ark med e-postadresser
+#### Alternativ B: Opprett Excel-ark med e-postadresser
 
 Det er også mulig å hente e-postadresser fra andre kilder. Excel-arket må bestå av to kolonner:
 - PERSON IDENTIFIER eller PERSON NAME

@@ -15,9 +15,9 @@ I påmeldingsoversikten vises to statuser for påmeldingen.
    
 2. ***Status***:   Denne statusen kommer fra stasjonsdata og er relatert til om løperen er godkjent eller ikke. 
 
-## Opprette påmelding
+## Opprette påmelding  {#create}
 
-Påmelding kan importeres (IOF XML 3.0) eller opprettes manuelt. 
+Påmelding kan [importeres](/nb/tasks/import-entries) (IOF XML 3.0) eller opprettes manuelt. 
 Det er mulig å søke i Eventor sitt register for rask påmelding av deltagere.
 
 ### Manuell opprettelse {#manual}

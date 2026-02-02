@@ -1,6 +1,6 @@
 # Fellestart
 
-Time4o støtter fellestart og gafling. Det er også mulig å kombinere individuell start (med/uten brikketid) og fellestart i samme klasse.
+Time4o støtter fellestart og gafling. Det er også mulig å kombinere intervallstart (med/uten brikketid) og fellestart i samme klasse.
 
 ## Starttider
 

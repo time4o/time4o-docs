@@ -6,7 +6,7 @@ En klasse har mange innstillinger der en del av disse kan arve verdien sin fra l
 
 ## Opprette klasser
 
-Klasser kan [importeres (IOF XML 3.0)](/nb/tasks/import-classes) eller opprettes manuelt.
+Klasser kan [importeres fra Eventor eller fil (IOF XML 3.0)](/nb/tasks/import-classes) eller opprettes manuelt.
 
 
 ## Felter 

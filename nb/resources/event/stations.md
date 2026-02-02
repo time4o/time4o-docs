@@ -12,6 +12,12 @@ En stasjon kan bestå av flere aktive løpsstasjoner og dermed håndtere avlesin
 Ved f.eks. en brikkeavlesing så sjekker Time4o hvilke løp som ligger på stasjonens løpsstasjoner.
 Deretter leter Time4o blant påmeldingene i disse løpene for å finne påmeldingen som dataene skal knyttes mot. Dette gjøres ved hjelp av brikkenummeret eller startnummeret på stasjonsdataene.
 
+Det er også mulig å knytte en løpsstasjon mot spesifikke klasser i helt spesielle tilfeller.
+Man kan også opprette flere løpsstasjoner mot samme løp, men med ulike tidtakingstyper med ulik prioritet, 
+noe som f.eks. kan være nyttig om man ønsker å hente backup-måltid fra avleser i tilfelle ETS ikke fikk registrering måltiden.
+Dette er oppsett for erfarne brukere :-)  
+
+
 #### Brikketype
 
 I tilfeller der løperne løper med flere brikker kan det angis hvilke brikketype denne stasjonen håndterer. 
@@ -32,24 +38,22 @@ Hvis stasjonen i tillegg til å produsere tidtakingsdata, skal levere meldinger 
 For å produsere [stasjonsdata og tidtakingsdata](/nb/guide/timing) må det opprettes en stasjon og en løpsstasjon.
 I de fleste løp kan dette gjøres automatisk når arrangementet opprettes.
 
-1. Gå til "Tidtaking > Stasjoner" og velg "Ny"
-2. Velg [stasjonstype](/nb/guide/station-types) (tilkoblet via USB)
+1. Gå til stasjonsoversikten (***Tidtaking*** > ***Stasjoner***)
+2. Opprett ny stasjon med øsnsket ***Stasjonsrolle***
+2. Velg ønsket [stasjonstype](/nb/guide/station-types) (tilkoblet via USB)
 3. Skriv inn valgfritt navn eller behold det som foreslåes.
 4. Lagre stasjonen
-5. Velg "Ny" under fanen "Løpsstasjoner"
-6. Velg løp
-7. Velg type tidtakingsdata. I et vanlig løp med brikkeavlesing skal alt bortsett fra "Poeng" velges.
-8. Øvrig valg skal være uendret.
-9. Lagre løpsstasjonen
+7. Hvis arrangementet har flere løp, sjekk at løpsstasjonen er koblet mot riktig løp.
 
 ## Felter
 
 ### Stasjon
 
-| Felt             | Beskrivelse                 |
-|------------------|-----------------------------|
-| Stasjonstype | Stasjonstype                |
-| Navn             | Valgfritt navn på stasjonen |
+| Felt          | Beskrivelse                                                                                        |
+|---------------|----------------------------------------------------------------------------------------------------|
+| Stasjonsrolle | Stasjonsrolle som i prinsipp kun brukes for å sette riktige standardinnstillinger på løpsstasjonen |
+| Stasjonstype  | Stasjonstype                                                                                       |
+| Navn          | Valgfritt navn på stasjonen                                                                        |
 
 ### Løpsstasjon
 

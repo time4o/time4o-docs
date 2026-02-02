@@ -17,7 +17,7 @@ I Time4o kan en løype starte på hvilken som helst kode. Det trenger med andre 
 
 Det er tre måter å opprette løyper på:
 
-1. Importere fil (IOF XML 3.0) fra løypeleggerprogrammet (OCAD, Condes, PurplePen).
+1. [Importere fil](/nb/tasks/import-courses) (IOF XML 3.0) fra løypeleggerprogrammet (OCAD, Condes, PurplePen).
 2. Opprette manuelt (se beskrivelse under)
 3. Opprette løyper basert på avleste stemplinger (beskrivelse kommer)
 

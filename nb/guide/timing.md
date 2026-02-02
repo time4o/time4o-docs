@@ -47,7 +47,7 @@ Hvis du har markert stasjonsdata når du oppretter manuelle data, så vil de man
 :::
 
 
-## Brikkeavlesing
+## Brikkeavlesing {#readout}
 
 ### Koble til stasjon
 

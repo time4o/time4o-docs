@@ -1,9 +1,9 @@
 # Stemplingsfri målgang
 
-Time4o støtter stemplingsfri målgang der tradisjonell Emit EKT-brikke brukes til poststemplinger og Emit emiTag til målgang.
+Time4o støtter stemplingsfri målgang der tradisjonell Emit EKT-brikke brukes til poststemplinger og Emit emiTag til målgang, eller emiTag brukes både til poststemplinger og målgang.
 Dette brukes typisk i hovedarrangement i Norge.
 
-I Time4o får deltageren en midlertidig status ***Fullført*** ved passering av målstreken, og deretter ***OK*** eller ***Mangler stemplinger*** ved avlesing.
+I Time4o får deltageren en midlertidig status ***Fullført*** ved passering av målstreken, og deretter ***OK*** eller ***Mangler stemplinger*** ved avlesing (stemplingssjekk).
 Dette gjør at man har god kontroll på at deltageren både har blitt registrert på mållinja, og har lest av brikken.
 
 ## Oppsett

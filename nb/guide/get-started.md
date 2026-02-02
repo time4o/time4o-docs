@@ -1,13 +1,24 @@
+# Introduksjon
 
-# Kom i gang
+Time4o består i hovedsak av to deler, [Time4o Hub](/nb/resources/hub) og [Arrangement](/nb/resources/event) som igjen består av ulike ressurser og [oppgaver](/nb/tasks).
+I dokumentasjonen er det forsøkt å beskrive hva alle ressursene gjør og hvilke innstillinger de har.
+I tillegg er det laget veiledninger som binder ressursene sammen til ulike løpskonsepter og andre funksjoner.
+
+::: warning OBS!
+Dokumentasjonen prøver å dekke alle mulighetene i Time4o, men pga. omfanget av funksjonalitet, er det helt sikkert noe som ikke kommer godt fram.
+Ta derfor kontakt hvis du lurer på om noe er mulig i Time4o. Det er mange tips og triks for å unngå manuelt arbeid.
+:::
+
+
+## Kom i gang
 
 For å komme i gang med Time4o er det noen steg som må utføres:
 
-**1. Sjekk systemkrav**
+#### 1. Sjekk systemkrav
 
 Sjekk at du tilfredsstiller  [systemkravene](/nb/guide/requirements).
 
-**2. Opprett bruker og logg inn**
+#### 2. Opprett bruker og logg inn
 
 [Registrer bruker her](https://app.time4o.com/register)
 
@@ -18,31 +29,10 @@ Når e-posten er verifisert kan du logge inn.
 
 [Logg inn her](https://app.time4o.com)
 
-**3. [Opprett en klient](/nb/resources/hub/clients)**
+#### 3. Få tilgang til en klient
 
+[Opprett en klient eller få tilgang til en eksisterende klient](/nb/resources/hub/clients) 
 
-**4. Du er nå klar til å [opprette ditt første arrangement](/nb/resources/hub/event)**
+#### 4. Opprett et arrangement
 
-
-## Hub
-
-Time4o består av en såkalt Hub som blant annet håndterer opprettelse av nye arrangement, klienter og center, samt brukerstyring av disse.
-
-## Arrangement
-
-Hvert arrangement består igjen av ulike ressurser der noen er felles for hele arrangementet og andre er spesifikke for hvert løp, noe som gjør at Time4o er veldig godt egnet for flerdagersløp, karuseller, klubbtreninger osv. der flere løp deler denne samme deltagermassen.
-
-### Felles ressurser
-- Oppgaver og logger
-- Tidtakingsdata, stasjoner og infoskjermer
-- Personer
-- Organisasjoner
-- Brikker og brikketyper
-- Produkter
-
-### Løpspesifikke ressurser
-- Påmeldinger
-- Starter
-- Klasser
-- Løyper og poster
-- Fakturalinjer
+Start gjerne med et [enkelt o-løp](/nb/guide/tutorials/simple-race)!
