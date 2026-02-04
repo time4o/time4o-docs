@@ -33,15 +33,15 @@ Klasser kan [importeres fra Eventor eller fil (IOF XML 3.0)](/nb/tasks/import-cl
 
 Feltene benyttes i forbindelse med opprettelse av starter (startnummer og starttider).
 
-| Felt             | Beskrivelse                                                                                                                     |
-|------------------|---------------------------------------------------------------------------------------------------------------------------------|
-| Første start (1)    | Angir først starttid for klassen. Benyttes som starttid ved fellesstart.                                                        |
-| Starttype (1)       | Brukes i forbindelse med opprettelse av starter. Ved ***fristart*** og ***fellesstart*** så vil ***starten*** ikke få starttid. |
-| Startintervall (1)  | Vises hvis starttype er ***intervall***. Angir startintervall i sekunder.                                                       |
-| Startnummerserier (1) | Angi starten på startnummerserie. Hvis flere klasser arver fra løpet så vil klassen dele serien.                                | 
-| Neste startnummer | Angir neste startnummer som skal brukes ved opprettelse av starter.                                                             | 
-| Ledige starter   | Angir hvor mange ekstra starter som skal opprettes utover antall påmeldinger som ligger inne.                                   | 
-| Rekkefølge trekking | Angir rekkefølgen på klasser som har starttider etter hverandre, typisk klasser med samme løype.                                | 
+| Felt             | Beskrivelse                                                                                                                                                                                      |
+|------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Første start (1)    | Angir først starttid for klassen. Benyttes som starttid ved fellesstart.                                                                                                                         |
+| Starttype (1)       | Brukes i forbindelse med opprettelse av starter. Ved ***fristart*** og ***fellesstart*** så vil ***starten*** ikke få starttid.                                                                  |
+| Startintervall (1)  | Vises hvis starttype er ***intervall***. Angir startintervall i sekunder.                                                                                                                        |
+| Startnummerserier (1) | Angi starten på startnummerserie. Hvis flere klasser arver fra løpet så vil klassen dele serien.                                                                                                 | 
+| Neste startnummer | Intern teller som Time4o bruker i forbindelse med opprettelse av starter. Hvis man må opprette starter på nytt må telleren nullstilles slik at Time4o. | 
+| Ledige starter   | Angir hvor mange ekstra starter som skal opprettes utover antall påmeldinger som ligger inne.                                                                                                    | 
+| Rekkefølge trekking | Angir rekkefølgen på klasser som har starttider etter hverandre, typisk klasser med samme løype.                                                                                                 | 
 
 
 ### Tidtaking
