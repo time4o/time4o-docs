@@ -1,24 +1,18 @@
 # Infoskjermer
 
-En infoskjerm er pr. nå en brikkesjekk. Andre typer infoskjermer kommer. 
- 
-En infoskjerm er en nettside som ikke krever at en bruker er innlogget, og nettsiden kan vises på alle enheter med en nettleser.
-Linken til nettsiden vises når infoskjermen er opprettet.
+En infoskjerm er en nettside som kan vise informasjon på en skjerm, f.eks. i forbindelse med brikkesjekk, TV-grafikk eller resultatscroll.
+
+En infoskjerm har en unik link og krever ikke innlogging for å vise nettsiden.
 
 [Stasjonene](/nb/resources/event/stations) kan settes opp til å sende meldinger til en eller flere infoskjermer i tillegg til å utføre sine øvrige oppgaver.
 
-Det vil bli mulig å tilpasse hva f.eks. en brikkesjekk skal vise. Ta kontakt med Time4o hvis du har ønsker.
 
-::: info Tips!
-Iom. at Time4o støtter flere stasjoner tilkoblet samme datamaskin kan én datamaskin håndtere flere brikkesjekker hvis datamaskinen støtter flere skjermer. 
-Hver avlesingsenhet knyttes mot hver sin infoskjerm.  
-:::
-
-### Opprette infoskjerm
+## Opprette infoskjerm
 
 1. Gå til ***Tidtaking*** > ***Infoskjermer*** og velg ***Ny***
-2. Velg type infoskjerm og et valgfritt navn. Merk at navnet vil vises nede i høyre hjørne på infoskjermen.
-3. Lagre infoskjermen
+2. Velg type infoskjerm og et valgfritt navn.
+3. Gå gjennom tilgjengelig innstillinger basert på type infoskjerm.
+4. Lagre infoskjermen
 
 Lenken til infoskjermen vises i oversikten over infoskjermer.
 
@@ -30,7 +24,10 @@ Lenken til infoskjermen vises i oversikten over infoskjermer.
 | Type | Type infoskjerm      |
 | Navn | Navn på infoskjermen |
 
+I tillegg kommer det felter baser på type infoskjerm.
 
 ## Lenker
 
-[Brikkesjekk](/nb/guide/tutorials/card-check)
+- [Brikkesjekk](/nb/guide/tutorials/card-check)
+- [Speaker](/nb/guide/tutorials/speaker)
+- [TV-grafikk](/nb/guide/tutorials/tv-graphics)
