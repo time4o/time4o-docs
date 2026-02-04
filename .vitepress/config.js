@@ -128,10 +128,42 @@ export default {
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
+      { text: 'Hjem', link: '/' },
     ],
     search: {
-      provider: 'local'
+      provider: 'local',
+      options: {
+        // TODO Update this to async when upgrading to vitepress v2
+        // https://dev.to/ahandsel/vitepress-debug-frontmattertitle-is-appearing-in-search-results-k60
+        _render(src, env, md) {
+          // First pass: render to populate env.frontmatter and other metadata
+          md.render(src, env)
+
+          // Use empty object as fallback if frontmatter is undefined
+          const fm = env.frontmatter ?? {}
+
+          // Honor per-page opt out: `search: false` in frontmatter
+          // if (fm.search === false) {
+          //   return ''
+          // }
+
+          let rewritten = src
+
+          // Replace headings like "{{ $frontmatter.title }}" with a concrete title
+          if (typeof fm.title === 'string' && fm.title.trim().length > 0) {
+            rewritten = rewritten.replace(
+                /\{\{\s*\$frontmatter\.title\s*}}/m,
+                `${fm.title}`
+            )
+          }
+
+          // Strip any remaining $frontmatter interpolations from indexable text
+          rewritten = rewritten.replace(/\(?\{\{\s*\$frontmatter\.[^}]*}}\)?/g, '')
+
+          // Final render used for indexing
+          return md.render(rewritten, env)
+        },
+      }
     },
     // socialLinks: [
     //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
