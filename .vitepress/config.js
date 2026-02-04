@@ -44,6 +44,7 @@ export default {
                 { text: 'Oppgaver', link: '/nb/tasks' },
                 { text: 'Tidtaking', link: '/nb/guide/timing' },
                 { text: 'Stasjonstyper', link: '/nb/guide/station-types' },
+                { text: 'Jukselappen', link: '/nb/guide/cheat-sheet' },
               ],
             },
             {
@@ -128,6 +129,9 @@ export default {
     nav: [
       { text: 'Home', link: '/' },
     ],
+    search: {
+      provider: 'local'
+    },
     // socialLinks: [
     //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     // ]
