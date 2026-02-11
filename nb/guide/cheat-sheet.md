@@ -11,17 +11,15 @@ Ta gjerne [kontakt med Time4o](https://time4o.com/#contact) om du har forslag ti
 
 Dette kan skyldes ukjent brikke, flere påmeldinger har samme brikke etc.
 
-1. Klikk på den blå knappen **Overstyr påmelding** i påmeldingskolonnen i stasjonsdata-tabellen.
+1. Klikk på den blå knappen ***overstyr påmelding*** i påmeldingskolonnen i stasjonsdata-tabellen.
 2. Søk opp riktig påmelding i feltet ***påmelding*** og lagre.
 
 Stasjonsdata er nå låst mot påmeldingen og stasjonsdata prosesseres på nytt.
 
-
 ### Stasjonsdata ligger på feil påmelding
 
-1. Klikk på stasjonsdata-raden for å åpne stasjonsdata.
-2. Huk av for ***overstyr påmelding***
-3. Søk opp riktig påmelding i feltet ***påmelding*** og lagre.
+1. Velg ***overstyr påmelding*** via menyen i tilknytning til påmelding i stasjonsdata-tabellen (knapp med 3 prikker).
+2. Søk opp riktig påmelding i feltet ***påmelding*** og lagre.
 
 ### Overstyr status på deltager
 
