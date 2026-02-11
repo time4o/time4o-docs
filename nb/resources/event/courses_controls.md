@@ -73,7 +73,7 @@ Det er tre måter å opprette løyper på:
 
 ## Linker
 
-[Se jukselappen for problemstillinger og løsninger](/nb/guide/cheat-sheet#courses)
+[Se jukselappen for feilsituasjoner og løsninger](/nb/guide/cheat-sheet#courses)
 
 
 ## Oppgaver

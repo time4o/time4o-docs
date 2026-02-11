@@ -47,7 +47,7 @@ Klasser opprettes også i forbindelse med import av påmeldinger, men kun klasse
    - Det anbefales å slette alle tidligere meldinger hvis eScan2 eller MTR4
    - Ved emiTag og flere avlesere (også brikkesjekk) er det viktig at avleserne har ulik kode!
 
-2. Håndter feilsituasjoner (dokumentasjon kommer)
+2. Håndter feilsituasjoner ved hjelp av [jukselappen](/nb/guide/cheat-sheet).
 
 3. Følge med på **Statuser** på dashbordet for oversikt over antall løpere som er ute i skogen (Inaktiv). Klikk på statusen for en liste er påmeldinger med statusen.
 

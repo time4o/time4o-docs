@@ -65,7 +65,7 @@ I dette tilfellet åpner vi påmeldingen setter ***status*** til ***OK*** under 
 **Overstyr resultat** er i praksis en stasjon som har bedre prioritet enn alle andre stasjoner, og statusen fra denne
 vil derfor overstyre statusen fra avlesingen.
 
-[Se jukselappen for problemstillinger og løsninger](/nb/guide/cheat-sheet)
+[Se jukselappen for feilsituasjoner og løsninger](/nb/guide/cheat-sheet)
 
 ## Brikkeavlesing {#readout}
 
@@ -91,7 +91,7 @@ Hvilke typer tidtakingsdata som opprettes er bestemt av hva slags stasjon det er
 
 Så lenge ingen av tidtakingsdatene er røde er alt i orden og deltageren er godkjent.
 
-[Se jukselappen for problemstillinger og løsninger](/nb/guide/cheat-sheet)
+[Se jukselappen for feilsituasjoner og løsninger](/nb/guide/cheat-sheet)
 
 ::: info Tips!
 Alle stasjonsdata, uavhengig av stasjon, vises i stasjonsdata-tabellen. Hvis det hentes stasjonsdata fra flere

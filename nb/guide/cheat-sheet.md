@@ -1,6 +1,6 @@
 # Jukselappen
 
-Her kan du finne løsningen på de vanligste problemstillingene i forbindelse med tidtakingen.
+Her kan du finne løsninger på de vanligste feilsituasjonene i forbindelse med tidtakingen.
 
 Ta gjerne [kontakt med Time4o](https://time4o.com/#contact) om du har forslag til flere løsninger som burde være her.
 
