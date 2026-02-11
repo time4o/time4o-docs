@@ -10,55 +10,40 @@ Dette gjør at man har god kontroll på at deltageren både har blitt registrert
 
 ### Brikketyper
 
-Det må opprettes én brikketype for hver brikke.
+Ved flere brikker må det opprettes én brikketype for hver brikke. Dette gjelder også hvis deltagere bruker to emiTag, der den ene er for backup.
 
 [Les mer om brikketyper](/nb/resources/event/cards)
 
-::: info Merk!
-Det er mulig å opprette flere brikketyper om man f.eks. ønsker to emiTager pr løper. Kontakt Time4o for informasjon om hvordan dette settes opp.
+Ta gjerne kontakt med Time4o for råd om hvordan backup-brikke kan settes opp.
+
+### Løyper og poster
+
+Hvis EKT-brikke brukes til poststempling og emiTag til målgang så målposten unntas fra stemplingsjekk da EKT-brikken ikke har noen målstempling. 
+
+::: warning OBS!
+Hvis emiTag brukes til både poststempling og mållinje med dobbel loop(!), så skal koden på målposten i løypeoppsettet være 65534.
+Ved dobbel loop vil brikken ha stempling både på kode 248 og 65534, og 65534 er altså den riktige.   
 :::
-
-### Løyper
-
-Løypene i berørte klasser må settes opp **uten målpost**. I Time4o er målposten en del av disksjekken,
-så hvis målposten er med vil alle løpere blir diskvalifiserte ved avlesing av EKT-brikken iom. at EKT-brikken ikke stempler i mål.
-
-Ved import av løyper vil målposten alltid opprettes. Målposten må derfor unntas fra disksjekk da den ikke vil ligge i Emit-brikken. 
-
 
 ### Stasjoner
 
-Det må opprettes to stasjoner/løpsstasjoner:
+Det må opprettes to stasjoner:
 
-1. Stasjon for målpassering. Dette er som regel en Emit ETS, men melding fra Emit Server kan også benyttes om man ikke ønsker å koble ETS til en PC via kabel. Å bruke Emit Server vil gi en forsinkelse i å sette måltiden.
+1. [Opprette stasjon](/nb/resources/event/stations#create) med stasjonrolle ***Mållinje*** og ønsket stasjonstype.
+2. [Opprette stasjon](/nb/resources/event/stations#create) med stasjonrolle ***Avlesing (kun stemplingsjekk)*** og ønsket stasjonstype.
 
-   Innstillinger løpsstasjon:
-   - ***Type***: ***Måltid*** og ***Status***
-   - ***Prioritet***: Lavere prioritet (høyere tall) enn stasjon for avlesing (f.eks. 12)
-   - ***Prioritet data***: ***Bruk første data***
-   - ***Brikketype***: Brikketypen som representerer emiTag-en.
-   - ***Lås status***: ***Fullført***
-   - ***Ingen prosessering ført start***: Velg denne for å unngå at deltagere som passerer mållinja før egen start får måltid.
-
-2. Stasjon for avlesing av EKT-brikke for disksjekk. Dette er typisk en Emit EScan2 eller MTR4.
-
-   Innstillinger løpsstasjon:
-   - ***Type***: ***Strekktider*** og ***Status***
-   - ***Prioritet***: Høyere prioritet (lavere tall) en stasjon for målpassering (f.eks. 10)
-   - ***Prioritet data***: ***Bruk siste data***
-   - ***Brikketype***: Brikketypen som representerer EKT-brikken.
-   - ***Lås status***: Fylles ikke ut!
+Løpsstasjonene settes opp automatisk med riktig innstillinger.
 
 
-Både stasjonen for målpassering og avlesing kobles til pc på vanlig måte. Det er i teorien mulig å koble begge stasjoner til én pc, men i de aller fleste tilfeller brukes én til hver stasjon.  
-Husk å stille klokkene! Dette gjøres ved et tastetrykk i Time4o, og skal kun gjøres FØR løpet (ikke under!).
+Både stasjonen for målpassering og avlesing [kobles til](/nb/resources/event/stations#connect) på vanlig måte. Det er i teorien mulig å koble begge stasjoner til én pc, men i de aller fleste tilfeller brukes én til hver stasjon.  
+Husk å stille klokkene! Dette gjøres ved et tastetrykk i Time4o, og bør kun gjøres FØR løpet.
 
-Det er i utgangspunktet valgfritt hvilken kode målstasjonen har da Time4o ikke bruker denne til noe,
-men bruk kodene 90 (enkel sløyfe) eller 248 (dobbel sløyfe) som ETS-en forlanger.
+For Time4o sin del er det i utgangspunktet valgfritt hvilken kode målstasjonen har, 
+men bruk kode 248 for dobbel sløyfe, alternativt kode 90 for enkel sløyfe som ETS-en forlanger for at sløyfene skal fungere.
 
 ## Tidtaking
 
-Tidtakingen skjer på vanlig måte. Det er anbefalt å ha en dedikert person som overvåker at deltagere blir registrert ved målpassering.
+[Tidtakingen](/nb/guide/timing) skjer på vanlig måte. Det er anbefalt å ha en dedikert person som overvåker at deltagere blir registrert ved målpassering.
 
 En backupløsning vil også være nødvendig (kamera, manuell registrering med trykknapp el.)
 
