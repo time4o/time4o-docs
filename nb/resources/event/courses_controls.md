@@ -71,17 +71,13 @@ Det er tre måter å opprette løyper på:
 | Unnta fra stemplingsjekk | Posten er ikke med i stemplingsjekken for alle løyper som har posten. Posten inkluderes i strekktider.                           |                      
 
 
+## Linker
+
+[Se jukselappen for problemstillinger og løsninger](/nb/guide/cheat-sheet#courses)
+
 
 ## Oppgaver
 
 <TaskList :category="['Courses', 'Controls']" />
 
-## Tips
-
-### Hvordan endre kode på en post i alle løyper
-
-Velg aktuell post under "Poster" og endre postkode til ny postkode. Endringen vil gjenspeile seg i alle løyper der gammel kode var benyttet.
-
-### Hvordan benytte to eller flere ulike postkoder på samme post i ei løype
-
-Opprett en post som et alias for en annen post. Strekktider vil vise koden på hovedposten selv om løperen har stemplet på alias-posten.
+ 

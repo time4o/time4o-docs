@@ -128,6 +128,7 @@ export default {
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
+      { text: 'Jukselappen', link: '/nb/guide/cheat-sheet' },
       { text: 'Hjem', link: '/' },
     ],
     search: {

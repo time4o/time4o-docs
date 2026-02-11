@@ -1,8 +1,9 @@
 # Stasjoner
 
-Alle inndata (input) i forbindelse med tidtakingen kommer fra stasjoner. En stasjon kan for eksempel være en Emit MTR, en ETS som sender meldinger via Emit sin server eller en "manuell" stasjon med mulighet for å sette en tid.
+Alle [data](/nb/guide/timing#data) (input) i forbindelse med tidtakingen kommer fra stasjoner. En stasjon kan for eksempel være en Emit MTR, en ETS som sender meldinger via Emit sin server eller en "manuell" stasjon med mulighet for å sette en tid.
 
-[Les mer om stasjonstyper](/nb/guide/station-types)
+- [Les mer om stasjonstyper](/nb/guide/station-types)
+- [Les om stasjonsdata og tidtakingsdata](/nb/guide/timing#data)
 
 ### Løpsstasjoner {#race-station}
 
