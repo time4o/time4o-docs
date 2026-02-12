@@ -14,12 +14,15 @@ Dette løpet bør kjøres i samme arrangement som knock-out-løpet i Time4o for 
 
 For å kunne fordele løperne fra prologen til finaler så må resultatene fra dette løpet kopieres over til prolog-klassene til knock-out-løpet.
 
-Dette gjøres ved hjelp av oppgaven [kopier påmeldinger](/nb/tasks/copy-entries) med følgende innstillinger:
+Først må det [opprettes én egendefinert oppgave](/nb/tasks#create) med jobb ***CopyEntries***.
+
+Denne kjøres med følgende innstillinger:
 - Velg riktig kildeklasse og målklasse
-- ***Kopier påmelding*** skal **IKKE** er valgt. Det samme gjelder ***kopier start*** og ***inkluder brikker***.
+- ***Kopier påmelding*** skal **IKKE** være valgt. Det samme gjelder ***kopier start*** og ***inkluder brikker***.
 - Huk av for ***kopier resultat*** 
 - Stasjon skal være ***overstyr resultat*** og ***typer*** skal være ***status*** og ***tid***.
 
+[Les mer om oppgaven her](/nb/tasks/copy-entries)
 
 
 ## Heat (klasser)
