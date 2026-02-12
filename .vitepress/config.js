@@ -33,6 +33,12 @@ export default {
           prev: 'Forrige side',
           next: 'Neste side'
         },
+        notFound: {
+          code: '',
+          title: 'Denne siden finnes ikke',
+          quote: 'Ta kontakt med Time4o support hvis det burde være noe her :-)',
+          linkText: 'Hjem'
+        },
         sidebar: {
           '/' : [
             {
