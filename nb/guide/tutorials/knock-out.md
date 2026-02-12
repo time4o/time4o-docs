@@ -14,7 +14,7 @@ Dette løpet bør kjøres i samme arrangement som knock-out-løpet i Time4o for 
 
 For å kunne fordele løperne fra prologen til finaler så må resultatene fra dette løpet kopieres over til prolog-klassene til knock-out-løpet.
 
-Først må det [opprettes én egendefinert oppgave](/nb/tasks#create) med jobb ***CopyEntries***.
+Først må det [opprettes én egendefinert oppgave](/nb/tasks#create) med jobb ***Copy Entries***.
 
 Denne kjøres med følgende innstillinger:
 - Velg riktig kildeklasse og målklasse
