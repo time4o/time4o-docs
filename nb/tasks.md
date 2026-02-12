@@ -7,17 +7,15 @@ Alle oppgaver ligger under ***Arrangement > Oppgaver*** i Time4o. Der kan man og
 Oppgavene er kategorisert og tilgjengeligjort via snarveier i menyene. Enkelte oppgaver kan [tidsstyres](/nb/tasks#schedules).
 
 
-## Opprett egendefinert oppgave
+## Opprett egendefinert oppgave {#create}
 
 1. Gå til ***Arrangement > Oppgaver*** og klikk ***Ny***.
 2. Skriv inn et valgfritt navn
 3. Velg ønsket jobb. Listen under beskriver de ulike jobbene.
-4. ***Direkte*** betyr at oppgaven kjøres utenom køen. I utgangspunktet skal alle oppgaver legges i køen og valget skal ikke hukes av. 
-5. Lagre oppgaven
-6. Mange oppgaver har egne innstillinger som må være satt før oppgaven kan kjøres. Disse er beskrevet for hver oppgave og settes i forbindelse med første kjøring.
+4. Lagre oppgaven
+5. Mange oppgaver har egne innstillinger som må være satt før oppgaven kan kjøres. Disse er beskrevet for hver oppgave og settes i forbindelse med oppgavekjøringen.
 
 ## Kjør oppgave
-
 
 1. Åpne oppgaven enten via menyen for den relaterte ressursen, eller ved å gå til ***Arrangement > Oppgaver***
 2. Klikk ***Gå til oppgavekjøring*** for å kjøre oppgaven.
