@@ -20,7 +20,9 @@ Denne kjøres med følgende innstillinger:
 - Velg riktig kildeklasse og målklasse
 - ***Kopier påmelding*** skal **IKKE** være valgt. Det samme gjelder ***kopier start*** og ***inkluder brikker***.
 - Huk av for ***kopier resultat*** 
-- Stasjon skal være ***overstyr resultat*** og ***typer*** skal være ***status*** og ***tid***.
+  - ***Stasjon*** skal være ***overstyr resultat*** 
+  - ***Typer*** skal være ***status*** og ***tid***.
+- ***Kopier stasjonsdata*** skal IKKE brukes.
 
 [Les mer om oppgaven her](/nb/tasks/copy-entries)
 
