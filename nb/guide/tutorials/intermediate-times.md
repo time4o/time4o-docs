@@ -1,6 +1,6 @@
 # Mellomtider
 
-Time4o kan hente mellomtider, starttider og måltider fra [Emit sin meldingsserver](http://emittiming.no/).
+Time4o kan hente mellomtider, starttider og måltider fra [Emit sin meldingsserver](http://emittiming.cloudapp.net/).
 
 Her beskrives oppsettet for å hente mellomtider og vise det i [Time4o Center](https://center.time4o.com/). Oppsettet består av tre deler.
 
@@ -40,7 +40,7 @@ Hver meldepost må settes opp som en egen stasjon.
 
 1. Gå til stasjonsoversikten (***Tidtaking*** > ***Stasjoner***)
 2. Opprett ny stasjon med ***Stasjonsrolle*** ***Mellomtid*** og ***Stasjonstype*** ***Emit Server***
-3. Velg passende navn (gjerne "Mellomtid 123") og connection.
+3. Velg passende ***navn*** (gjerne "Mellomtid 123") og ***connection***.
 4. Sett ***Serienummer*** til serienummeret på Emit sin hardware (ETS)
 5. ***Hent data nyere enn*** er automatisk foreslått til første start for løpet. Kun stemplinger etter dette tidspunktet vil bli hentet fra Emit-serveren. Endre tidspunktet om ønskelig. 
 6. Lagre stasjonen
@@ -48,26 +48,9 @@ Hver meldepost må settes opp som en egen stasjon.
 
 ## Henting av meldinger {#fetch-messages}
 
-Oppgaven [Emitserver](/nb/tasks/emit-server) henter meldinger fra Emit sin meldingsserver med et gitt intervall (5 sekunder er standard). 
-Den starter som standard én time før løpets første start og slutter fem timer etter løpets første start, 
-og henter som standard meldinger fra alle Emitserver-stasjoner som er satt opp.
+Oppgaven ***Emit Server*** henter meldinger fra [Emit sin meldingsserver](http://emittiming.cloudapp.net/).
 
-Oppgaven må være aktiv for å kjøre. Oppgaven kan aktiveres direkte fra dashbordet til arrangementet.
-
-### Endre tidsplan og stasjoner
-
-I noen tilfeller ønsker man å tilpasse tidsplanen eller hvilke stasjoner det skal hentes meldinger fra.
-
-1. Gå til oppgaven [Emitserver](/nb/tasks/emit-server) (Enten via dashbordet eller menyvalget ***Tidtaking*** > ***StasjonsData*** > ***Meny***) 
-2. Klikk ***Gå til oppgavekjøring***
-3. Velg stasjoner det skal hentes data fra og lagre.
-4. Gå til fanen ***Tidsplaner*** og endre gjeldene [tidsplan](/nb/tasks#schedules)
-
-::: warning OBS!
-Enkelte arrangementer i Eventor står med første start 00:00. 
-Da vil Emitserver-oppgaven starte 23:00 dagen før og slutte 05:00 på morgenen. Det kan derfor være lurt å dobbeltsjekke at tidsplanen er riktig! 
-:::
-
+[Les mer om oppgaven her](/nb/tasks/emit-server)
 
 ## Kolonnetitler Time4o Center {#column-titles}
 

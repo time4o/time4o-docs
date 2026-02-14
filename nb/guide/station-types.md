@@ -4,7 +4,7 @@ Følgende stasjonstyper støttes av Time4o:
 
 ### Tilkoblet via USB
 
-- [Emit EScan2](https://emit.no/nettbutikk/escan2/) (firmware 1.22 eller nyere!)
+- [Emit EScan2](https://emit.no/nettbutikk/escan2/) (firmware 1.24 eller nyere!)
 - [Emit ECU1](https://emit.no/nettbutikk/ecu1-brikkeleser/) (firmware 1.83 eller nyere!)
 - Emit ETS (1, [2](https://emit.no/nettbutikk/emit-time-station-ets2-4g/), [Mini](https://emit.no/nettbutikk/ets-mini/) (firmware 2.22 eller nyere!)
 - [Emit MTR4](https://emit.no/nettbutikk/mini-time-recorder-mtr4/)
@@ -14,7 +14,7 @@ Følgende stasjonstyper støttes av Time4o:
 - SportIdent BSM8 (Ikke ferdig implementert!)
 
 ### Øvrige
-- [Emit Server](http://emittiming.no/)
+- [Emit Server](http://emittiming.cloudapp.net/)
 - Manuell
 - Manuell Mellomtid
 - Manuell Velger
