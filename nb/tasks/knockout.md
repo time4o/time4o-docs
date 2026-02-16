@@ -18,10 +18,10 @@ For å bestemme antallet deltagere som skal "gå videre" så oppgir man antallet
 ***kvalifiseringsgrense*** på klassen og huker av for ***bruk klassens kvalifiseringsgrense*** i oppgaven.
 Det er også mulig å si at kun deltagere med bestemte statuser (f.eks. OK) skal gå videre.
 
-Hvis hverken kvalifiseringsgrense eller status settes vil alle deltagere "gå videre", noe som f.eks. kan være relevent hvis
+Hvis hverken kvalifiseringsgrense eller status settes vil alle deltagere "gå videre", noe som f.eks. kan være relevant hvis
 alle deltagere skal gå videre fra prolog til kvartfinaler.
 
-Hvordan deltagerne skal fordeles bestemmes av [fordelingsregelen](/nb/tasks/knockout#distribution-rules).
+Hvordan deltagerne skal fordeles, bestemmes av [fordelingsregelen](/nb/tasks/knockout#distribution-rules).
 
 Når oppgaven kjøres så opprettes det nye påmeldinger for deltagerne i mål-klassene, og i de fleste tilfeller bør man
 kopiere startnummerer og inkludere brikkene slik at det bli med videre.
@@ -29,6 +29,12 @@ kopiere startnummerer og inkludere brikkene slik at det bli med videre.
 ::: info Tips!
 Husk at det er mulig å lage så mange oppgaver som man vil slik at man kan gjøre klar oppgaver med alle fordelinger på forhånd og så kjøre oppgavene under arrangementet etter hvert som klassene er klare.
 :::
+
+## NM Knockout 2026
+
+[Se Google Regneark med oppsett for NM Knockout 2026](https://docs.google.com/spreadsheets/d/1e-EOacWF32KeCJrEHW1YJjQ5QFVljnw-KnG8qLGoj_s)
+
+
 
 ## Fordelingsregler {#distribution-rules}
 

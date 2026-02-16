@@ -34,7 +34,7 @@ Denne kjøres med følgende innstillinger:
 Alle heat må opprettes som en egne klasser, og settes opp som fellesstart med heatets starttid som ***første start*** på klassen og ***kilde starttid*** til ***startliste***.
 
 ::: warning Viktig!
-Klassenavnet må ende med nummeret på heatet for at fordeling av deltagere i heatene skal fungere. Kvartfinale 1 for D21 må hete "D 21 kvartfinale 1" for at Time4o skal skjønne at dette er heat 1.  
+Klassenavnet må ende med nummeret på heatet for at fordeling av deltagere i heatene skal fungere. F.eks. kan kvartfinale 1 for D 21 hete "D 21 KV 1" med ettall tilslutt.
 :::
 
 Heatene kan opprettes som klasser i Eventor slik at resultatene enkelt kan lastes opp i Eventor for alle heat.
@@ -107,7 +107,10 @@ De relevante klassene har nå fått ledige starter med startnummer og løype (ga
 
 Når heatene som skal gafles er klare, dvs. de har fått deltagere, så kan startene tildeles via oppgaven [tildel starter](/nb/tasks/assign-starts).
 
-Tildelingsmetode skal være enten ***trekk*** eller ***seeding***. Hvis det er kvartfinaler der deltagerne har fått en seeding basert på resultatet sitt i prologen (ref. tipset lenger oppe) så anbefales ***seeding***. 
+Tildelingsmetode skal være enten ***trekk*** eller ***seeding***. 
+Hvis det er kvartfinaler der deltagerne har fått en seeding basert på resultatet sitt i prologen (ref. tipset lenger oppe) så anbefales trekkemetod ***seeding*** og feltet ***Seeding*** settes til ***Høyest sist***
+
+I de fleste tilfeller vil det være naturlig å sette ***Ledige starter*** til ***Sist***.
 
 
 ## Endelig resultatliste
