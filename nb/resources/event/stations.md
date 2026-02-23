@@ -73,18 +73,35 @@ Unntaket er om det er tilkoblet mer enn én stasjon på samme pc/mobil. I dette 
 2. I dialogen kan du velge ***Koble fra*** hvis du vil bryte tilkoblingen uten å dra kabelen, eller du kan endre innstillinger i selve stasjonen som f.eks. å stille klokke eller sette ny kode.
 
 
-## Felter
+## Felter stasjon
 
-### Stasjon
+### Felles alle stasjontyper
 
-| Felt          | Beskrivelse                                                                                        |
-|---------------|----------------------------------------------------------------------------------------------------|
-| Stasjonsrolle | Stasjonsrolle som i prinsipp kun brukes for å sette riktige standardinnstillinger på løpsstasjonen |
-| Stasjonstype  | Stasjonstype                                                                                       |
-| Navn          | Valgfritt navn på stasjonen                                                                        |
+| Felt                            | Beskrivelse                                                                                                                                                                           |
+|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Stasjonsrolle                   | Stasjonsrolle som i prinsipp kun brukes for å sette riktige standardinnstillinger på løpsstasjonen                                                                                    |
+| Stasjonstype                    | Stasjonstype                                                                                                                                                                          |
+| Navn                            | Valgfritt navn på stasjonen                                                                                                                                                           |
+| Vis stasjonsdata i tidtaking    | Vis stasjonens stasjonsdata i stasjonsdatatabellen (tidtaking). Anbefales påslått i de fleste tilfeller.                                                                              |
+| Tillat sletting av stasjonsdata | Tillatt at stasjonens stasjonsdata slettes. Anbefales avslått. Deaktiver heller stasjonsdata for å ekskludere de fra tidtakingen. Deaktiverte data kan aktiveres igjen hvis ønskelig. |
 
-### Løpsstasjon
+### Emit Server
 
+| Felt                | Beskrivelse                                                                                                                                                                                         |
+|---------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Connection          | Emit server som skal benyttes. Pr. nå kun ett valg.                                                                                                                                                 |
+| Serienummer         | Serienummer til enhetes det hentes tider fra (vanligvis en Emit ETS).                                                                                                                               |
+| Hent data nyere enn | Kun hent meldinger med tidsstempel nyere enn angitt tidspunkt. Standard verdi er én time før løpets første start.                                                                                   |
+| Tidsjustering       | Et avansert valg som kan brukes hvis det viser seg at ETS-klokka er stilt feil. Hvis ETS-klokka går for sakte skal verdien være negativ, og hvis ETS-klokka går for fort skal verdien være positiv. |
+
+### ECU1
+
+| Felt                                        | Beskrivelse                                                                                                                                                                                |
+|---------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Bruk Time4o-klokken sitt avlesingstidspunkt | Skal kun brukes hvis ECU sin klokke er stilt feil. Time4o vil da kunne beregne tider ved å bruke et tidsstempel basert på Time4o sin innebygde klokke, noe som ikke gir samme nøyaktighet. |
+
+
+## Felter løpsstasjon
 
 | Felt | Beskrivelse                                                                                                                                                        |
 |--|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
