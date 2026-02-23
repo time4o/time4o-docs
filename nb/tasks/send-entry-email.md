@@ -1,5 +1,5 @@
 ---
-job: Send Entry Email
+job: SendEntryEmail
 title: Send e-post til påmeldte
 description: 
 category: Entries

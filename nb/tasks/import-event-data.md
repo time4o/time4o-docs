@@ -2,7 +2,7 @@
 job: ImportEventData
 title: Importer arrangementsdata
 description: Importér personer, organisasjoner og brikker fra annet arrangement
-category: RaceClasses
+category: Races
 ---
 
 # {{ $frontmatter.title }} ({{ $frontmatter.job }})

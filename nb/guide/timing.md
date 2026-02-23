@@ -11,6 +11,8 @@ mulig å aktivere dataene igjen hvis de ble deaktivert ved en feil.
 Hvis systemet er feilkonfigurert skal det være enkelt og sikkert og rekonfiguere og prosessere stasjonsdata på nytt for
 å produsere riktige resultater.
 
+[Se jukselappen for feilsituasjoner og løsninger](/nb/guide/cheat-sheet)
+
 ## Stasjonsdata og tidtakingsdata {#data}
 
 For å produsere stasjonsdata og tidtakingsdata må det [opprettes en stasjon](/nb/resources/event/stations#create).
@@ -65,7 +67,7 @@ I dette tilfellet åpner vi påmeldingen setter ***status*** til ***OK*** under 
 **Overstyr resultat** er i praksis en stasjon som har bedre prioritet enn alle andre stasjoner, og statusen fra denne
 vil derfor overstyre statusen fra avlesingen.
 
-[Se jukselappen for feilsituasjoner og løsninger](/nb/guide/cheat-sheet)
+[Se jukselappen for flere feilsituasjoner og løsninger](/nb/guide/cheat-sheet)
 
 ## Brikkeavlesing {#readout}
 
