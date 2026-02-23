@@ -63,6 +63,6 @@ Klasser opprettes også i forbindelse med import av påmeldinger, men kun klasse
 
 Et enkelt o-løp kan utvides med mer funksjonalitet.
 
-- Åpne for direktepåmelding (dokumentasjon kommer)
+- Åpne for [direktepåmelding](/nb/guide/direct-entry)
 - [Opprette starter](/nb/resources/event/starts) (trekke startliste)
 - [Startsjekk](/nb/guide/tutorials/start-check), [brikkesjekk](/nb/guide/tutorials/card-check) og [mellomtider](/nb/guide/tutorials/intermediate-times)
