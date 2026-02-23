@@ -13,6 +13,10 @@ eller hvis man arrangere både stafett og individuelt.
 | Løpsnummer   | Gjelder kun flerdagersløp.                          |
 | Identifikatortype/Identifikator | [Identifikatorer](/nb/resources/common/identifiers) |
 
+## Links
+
+- [Direktepåmelding](/nb/guide/direct-entry)
+
 
 ## Oppgaver
 

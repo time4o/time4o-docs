@@ -50,6 +50,7 @@ export default {
                 { text: 'Oppgaver', link: '/nb/tasks' },
                 { text: 'Tidtaking', link: '/nb/guide/timing' },
                 { text: 'Stasjonstyper', link: '/nb/guide/station-types' },
+                { text: 'Direktepåmelding', link: '/nb/guide/direct-entry' },
                 { text: 'Jukselappen', link: '/nb/guide/cheat-sheet' },
               ],
             },
@@ -76,7 +77,6 @@ export default {
               text: 'Veiledninger',
               collapsed: false,
               items: [
-                { text: 'Direktepåmelding', link: '/nb/guide/tutorials/direct-entry' },
                 { text: 'Brikkesjekk', link: '/nb/guide/tutorials/card-check' },
                 { text: 'Startsjekk', link: '/nb/guide/tutorials/start-check' },
                 { text: 'Mellomtider', link: '/nb/guide/tutorials/intermediate-times' },
