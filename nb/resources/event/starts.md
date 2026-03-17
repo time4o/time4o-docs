@@ -11,6 +11,8 @@ En start kun kan tildeles én påmelding, såfremt den ikke er definert som en *
 
 Har man indivuelle gaflinger så vil dessuten løypa alltid følge startnummeret noe som er en stor fordel om kartene merkes med startnummer.   
 
+Hvis klassen har starttype fellesstart så vil ***starten*** kun bestå et startnummer uten starttid. Når starttid mangler hentes starttid fra klassens ***første start***.. 
+
 ::: warning OBS!
 I klasser med fristart er det **ikke nødvendig å opprette starter** såfremt ikke deltageren skal bære et startnummer!
 Legg inn antall trykte kart på løypene for å ha kontroll på hvor mange påmeldinger klassene med fristart kan ha.
@@ -97,13 +99,13 @@ Det er også mulig å bruke poengene til plassere deltagerne i en seeding-gruppe
 ## Felter 
 
 
-| Felt        | Beskrivelse                                                                                      |
-|-------------|--------------------------------------------------------------------------------------------------|
-| Løp         | Løpet starten tilhører.                                                                          |
-| Klasse      | Klassen som starten tilhører. Klasse må angis for at starten skal være tilgjengelig for klassen. |
-| Startnummer | Startnummer                                                                                      |
-| Starttid    | Starttid. Dato må oppgis og som standard forslås løpets dato.                                    |
-| Løype       | Benyttes ved individuell gafling. Hvis løype ikke angis benyttes løypa på klassen.               |
+| Felt        | Beskrivelse                                                                                                                  |
+|-------------|------------------------------------------------------------------------------------------------------------------------------|
+| Løp         | Løpet starten tilhører.                                                                                                      |
+| Klasse      | Klassen som starten tilhører. Klasse må angis for at starten skal være tilgjengelig for klassen.                             |
+| Startnummer | Startnummer                                                                                                                  |
+| Starttid    | Starttid. Dato må oppgis og som standard forslås løpets dato. Hvis feltet er tomt arves starttiden fra klassens først start. |
+| Løype       | Benyttes ved individuell gafling. Hvis løype ikke angis benyttes løypa på klassen.                                           |
 
 
 
