@@ -9,7 +9,7 @@ Arrangementer administreres i Time4o Hub. Et arrangement kan bestå av flere lø
 3. Huk av for ***Bruk arrangement fra Eventor*** hvis arrangementet ligger i Eventor.
 4. Velg ***Connection***. Hvis ingen er tilgjengelig må en [connection opprettes](/nb/resources/hub/clients#connections).
 5. Når connection er valgt vises klubbens kommende løp, samt løp fra de siste 5 årene. Det kan ta noen sekunder før lista er klar. Velg det aktuelle løpet.
-6. Angi arrangementets ***Navn***, ***Startdato*** og ***Første start***. Dette fylles inn automatisk om løpet hentes fra Eventor.
+6. Angi arrangementets ***Navn***, ***Startdato*** og ***Første start***. Dette fylles inn automatisk hvis arrangementet hentes fra Eventor.
 
 #### Innstillinger
 7. Angi ***Språk***, ***Tidssone*** og ***Valuta***. Dette hentes fra klienten, men kan overstyres. Tidssone er viktig for å vise korrekte tidspunkter, men kan også endres i etterkant. (Kontakt gjerne support om du har angitt feil tidssone og må endre etter at løpet er i gang.)
