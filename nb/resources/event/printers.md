@@ -79,7 +79,7 @@ Time4o Center, LiveRes og Eventor er predefinerte valg. Hvis LiveRes velges vil 
 
 
 
-## Koble printer til PC (USB) {#connect}
+## Koble til printer (USB) {#connect}
 
 Dette kan kun gjøres fra støttede nettlesere. Se [systemkravene](/nb/guide/requirements) for mer info.
 
@@ -95,7 +95,7 @@ Hvis det gjøres en full "refresh" av nettsiden så vil printeren i de fleste ti
 Unntaket er om det er tilkoblet mer enn én printer på samme pc/mobil. I dette tilfellet må printerne kobles til på nytt.
 :::
 
-## Koble fra printer {#disconnect}
+### Koble fra printer {#disconnect}
 
 1. Klikk på knappen ***Koble til*** og velg ønsket printer fra listen.
 2. I dialogen kan du velge ***Koble fra*** hvis du vil bryte tilkoblingen uten å dra kabelen.
