@@ -108,6 +108,7 @@ export default {
                   items: [
                     { text: 'Løp', link: '/nb/resources/event/races' },
                     { text: 'Stasjoner', link: '/nb/resources/event/stations' },
+                    { text: 'Printere', link: '/nb/resources/event/printers' },
                     { text: 'Infoskjermer', link: '/nb/resources/event/info-screens' },
                     { text: 'Påmeldinger', link: '/nb/resources/event/entries' },
                     { text: 'Starter', link: '/nb/resources/event/starts' },
