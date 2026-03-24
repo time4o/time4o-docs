@@ -103,7 +103,6 @@ avlesingen.
 Bruk derfor stasjonsfilteret for kun å se stasjonsdata fra din avleser-stasjon.
 :::
 
-
 ## Konkurransestatuser
 
 Disse statusene beskriver deltagerens status i selve konkurransen.
@@ -141,8 +140,10 @@ Feilstatuser i kolonnen **datastatus** i stasjonsdata-tabellen.
 | **Flere påmeldinger funnet**       | Fant flere påmeldinger med angitt brikkenummer eller startnummer.                                               | [Overstyr påmelding](/nb/guide/cheat-sheet#timing)                                                                                                        
 | **Ingen løype**                    | Påmeldingens klasse eller start har ingen løype.                                                                | Legg til løype på klassen eller starten.<br/>[Prosesser stasjonsdata](/nb/guide/timing#process)                                                           
 | **Ingen stemplinger**              | Stasjonsdata har ingen poststemplinger.                                                                         | Prøv ny avlesing. Sjekk at avleser bruker riktig kode og protokoll.                                                                                       
-| **Flere avlesinger**               | Brikken er leste av flere ganger.                                                                               | Sjekk at brikken er nullet.                                                                                                                               |
 | **Før start**                      | Stasjonen har påslått valget ***Ingen prosessering før start*** og passeringstiden er før deltagerens starttid. |                                                                                                                                                           |
+| **Ufullstendig avlesing**          | Brikke, har sannsynligvis ikke dumpet alle data                                                                 | Les av brikken på nytt.                                                                                                                                   |
+| **Lest av flere ganger**           | Brikken er leste av flere ganger.                                                                               | I de fleste tilfeller er ikke dette noe problem, og ingenting man trenger å gjøre noe med.                                                                |
+| **Flere nullinger**                | Brikken inneholder flere o-stemplinger.                                  | Sjekk stemplingene. Dette skal ikke være mulig og noe er feil. Deltagere vil mest sannsynlig ha fått feil tid.                                            |
 
 Følgende statuser er relatert til autopåmeldingen.
 
