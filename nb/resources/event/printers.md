@@ -25,8 +25,9 @@ Det som er viktig for at skriveren skal fungere i Time4o per i dag er at det er 
 
     [How to Assign a Virtual Port to a TSP100 Series Printer](https://starmicronics.com/help-center/knowledge-base/assigning-a-virtual-port-to-the-tsp100-series-printers/)
 
+  Det kan dessverre være knotete å få lagt til den virtuelle porten for printere fra Star. [Ta gjerne kontakt](https://time4o.com/#contact) hvis du har funnet ut noe smart i denne sammenheng.
 
-Ta gjerne kontakt med Time4o om du har problemer
+
 
 
 OBS! Det finnes også en annen metode for å koble til skrivere, og det kommer støtte for denne metoden senere.
@@ -69,6 +70,10 @@ Det er mulig å skrive ut flere strekktidlapper i samme operasjon ved å velge f
 
 Arrangør kan selv bestemme hvilken nettside QR-koden skal peke til. 
 Time4o Center, LiveRes og Eventor er predefinerte valg. Hvis LiveRes velges vil QR-koden peke til deltagerens klasse i LiveRes.
+
+::: warning OBS!
+Ikke alle printermodeller støtter QR-koder
+:::
 
 ## Opprette printer {#create}
 
