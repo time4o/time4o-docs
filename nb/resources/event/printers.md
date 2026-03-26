@@ -19,7 +19,7 @@ Det som er viktig for at skriveren skal fungere i Time4o per i dag er at det er 
 
     Installer programmet [Epson TM Virtual Port Driver](https://ftp.epson.com/drivers/pos/TMVirtualPortDriver870c.exe)
 
-    Modeller som er testet at fungerer: Epson TM-T20IV, Epson TM-T20III
+    Modeller som er testet at fungerer: Epson TM-T20IV, Epson TM-T20III, Epson TM-T88VI, BIXOLON SRP-350plusII
 
 - Star
 
