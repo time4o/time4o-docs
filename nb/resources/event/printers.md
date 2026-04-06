@@ -21,11 +21,11 @@ Det som er viktig for at skriveren skal fungere i Time4o per i dag er at det er 
 
     Modeller som er testet at fungerer: Epson TM-T20IV, Epson TM-T20III, Epson TM-T88VI
 
-- BIXOLON
+- Bixolon
 
-  Installer [Virtual port driver](https://www.bixolon.com/support.php?kind=download) 
+  [Hvordan installere termiske skrivere fra Bixolon](/nb/resources/event/printers/bixolon.md) 
 
-  Modeller som er testet at fungerer: BIXOLON SRP-350plusII
+  Modeller som er testet at fungerer: BIXOLON SRP-350plusII, BIXOLON SRP-350plusIII
 
 - Star
 
