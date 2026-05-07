@@ -26,7 +26,7 @@ Dette er kun nødvendig om det er fare for at de ulike brikkene har overlappende
 
 #### Andre innstillinger
 
-Øvrige instillinger på løpsstasjonen brukes når stasjonsdataene skal prosesseres, dvs. produsere tidtakingsdata.
+Øvrige innstillinger på løpsstasjonen brukes når stasjonsdataene skal prosesseres, dvs. produsere tidtakingsdata.
 
 
 #### Infoskjerm
