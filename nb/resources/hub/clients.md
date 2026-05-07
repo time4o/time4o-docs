@@ -11,7 +11,7 @@ Hvis du ikke tilhører en eksisterende klient, kan du opprette en ny klient. Det
 1. Gå til ***Klienter*** og trykk + ikonet.
 2. Fyll inn navn på organisasjonen (idrettslaget) og lagre
 3. Du sendes til siden ***Abonnement*** og kan fylle ønsket abonnement, fakturaadresse og kontaktinfo.
-4. Se over andre menyvalg for andre instillinger.
+4. Se eventuelt over andre menyvalg for andre innstillinger.
 
 #### Legg inn API-nøkkel Eventor (opprett connection) {#connections}
 1. Gå til klientoversikten og klikk på klienten
