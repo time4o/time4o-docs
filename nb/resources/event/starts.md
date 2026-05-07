@@ -57,13 +57,13 @@ Hvis arrangementet har flere WRE-løp, og de består av både sprint og lang/mel
 ### Steg 1: Importer IOF ID-er
 
 1. Logg inn i Eventor og last ned påmeldingsoversikten i Excel-format
-2. Åpne excel-arket og gjør følgende:
+2. Åpne excel-arket og gjør følgende endringer:
    - Flytt fanen ***påmeldinger*** slik at den er først i Excel-arket. Importen kan kun hente den første fanen.
    - Endre kolonneoverskriften ***Person-id*** til ***PERSON IDENTIFIER:Norway***
    - Endre kolonneoverskriften ***IOF-person-id*** til ***PERSON IDENTIFIER:IOF***
    - Øvrige kolonner kan ligge slik de er
-3. Lagre Excel-arket som Excel type **.xlsx** da excel-formatet som Eventor produserer, ikke støttes av Time4o
-4. Gå til ***Påmelding*** og kjør oppgaven ***Importér påmeldinger*** med følgende innstillinger:
+3. Lagre Excel-arket
+4. Gå til ***Påmeldinger*** og kjør oppgaven ***Importér påmeldinger*** med følgende innstillinger:
    - Kilde: ***Fil***
    - Filformat: ***Excel***
    - Fil: Velg excel-arket
@@ -78,19 +78,19 @@ Vi har nå importert IOF ID-er på personene i Time4o.
 2. Last ned ønsket ranking i csv-format
    - Husk både menn og kvinner.
    - **Husk at det er ulik ranking for sprint og lang/mellom!**
-3. Åpne csv-fila og gjør følgende:
+3. Åpne csv-fila og gjør følgende endringer:
    - Endre kolonneoverskriften ***IOF ID*** til ***PERSON IDENTIFIER:IOF***
    - Endre kolonneoverskriften ***WRE points" til ***PERSON POINTS***
    - Øvrige kolonner kan ligge slik de er
 4. Lagre fila (la den være i csv-format) 
-5. Gå til ***Påmelding*** og kjør oppgaven ***Importér påmeldinger*** med følgende innstillinger:
+5. Gå til ***Påmeldinger*** og kjør oppgaven ***Importér påmeldinger*** med følgende innstillinger:
    - Kilde: ***Fil***
    - Filformat: ***Excel***
    - Fil: Velg csv-fila
    - Match etter: ***Personidentifikator***
    - Identifikatortype: ***IOF*** (OBS!)
 
-Denne importen vil ta ca 2 minutter.
+Denne importen kan ta mer enn 2 minutter.
 
 Vi har nå importert WRE-poeng på personene i Time4o og kan trekke startlista basert på poengene.
 Det er også mulig å bruke poengene til plassere deltagerne i en seeding-gruppe og deretter trekke basert på seeding.  
