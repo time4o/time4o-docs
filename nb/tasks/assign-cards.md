@@ -18,6 +18,7 @@ Hvis ***Mål*** er ***Alle påmeldinger*** så vil påmeldinger som allerede har
 :::
 
 Oppgaven kan [tidsstyres](/nb/tasks#schedules).
+ 
 
 ## Tildeling av leiebrikker
 
@@ -36,6 +37,11 @@ Det er påmeldingens person som benyttes for å finne påmeldinger i tidligere l
 ***Kilde*** skal være ***Brikker fra påmeldinger annet løp*** og ***Løp*** skal være løpet brikken skal hentes fra.
 
 ***Mål*** må være ***Alle påmeldinger*** om alle brikkeendringer fra tidligere løp skal oppdateres.
+
+## Utskrift av leiebrikker
+
+Bruk oppgaven for å skrive ut [startliste](/nb/tasks/startlist) hvis du trenger en liste over leiebrikker. Velg **Vis kun leiebrikker** og velg ønsket gruppering, sortering etc.
+
 
 ## Konfigurasjon
 
