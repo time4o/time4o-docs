@@ -33,7 +33,7 @@ Det er også mulig å hente e-postadresser fra andre kilder. Excel-arket må bes
 
 ### Steg 2: Importer excel-arket
  
-1. Gå til ***Påmelding*** og kjør oppgaven ***Importér påmeldinger*** med følgende innstillinger:
+1. Gå til ***Påmeldinger*** og kjør oppgaven ***Importér påmeldinger*** med følgende innstillinger:
     - Kilde: ***Fil***
     - Filformat: ***Excel***
     - Fil: Velg excel-arket
