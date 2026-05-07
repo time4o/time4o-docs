@@ -40,7 +40,7 @@ Det er påmeldingens person som benyttes for å finne påmeldinger i tidligere l
 
 ## Utskrift av leiebrikker
 
-Bruk oppgaven for å skrive ut [startliste](/nb/tasks/startlist) hvis du trenger en liste over leiebrikker. Velg **Vis kun leiebrikker** og velg ønsket gruppering, sortering etc.
+Bruk oppgaven for å skrive ut [startliste](/nb/tasks/start-list) hvis du trenger en liste over leiebrikker. Velg **Vis kun leiebrikker** og velg ønsket gruppering, sortering etc.
 
 
 ## Konfigurasjon
