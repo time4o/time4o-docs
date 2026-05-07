@@ -143,7 +143,7 @@ Feilstatuser i kolonnen **datastatus** i stasjonsdata-tabellen.
 | **Før start**                      | Stasjonen har påslått valget ***Ingen prosessering før start*** og passeringstiden er før deltagerens starttid. |                                                                                                                                                           |
 | **Ufullstendig avlesing**          | Brikke, har sannsynligvis ikke dumpet alle data                                                                 | Les av brikken på nytt.                                                                                                                                   |
 | **Lest av flere ganger**           | Brikken er leste av flere ganger.                                                                               | I de fleste tilfeller er ikke dette noe problem, og ingenting man trenger å gjøre noe med.                                                                |
-| **Flere nullinger**                | Brikken inneholder flere o-stemplinger.                                  | Sjekk stemplingene. Dette skal ikke være mulig og noe er feil. Deltagere vil mest sannsynlig ha fått feil tid.                                            |
+| **Flere nullinger**                | Brikken inneholder flere 0-stemplinger.                                                                         | Sjekk stemplingene. Dette skal ikke være mulig og noe er feil. Deltagere vil mest sannsynlig ha fått feil tid.                                            |
 
 Følgende statuser er relatert til autopåmeldingen.
 
