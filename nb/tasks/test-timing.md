@@ -14,22 +14,24 @@ Denne oppgaven kan generere resultater og strekktider i forbindelse med testing 
 
 ### Gunnleggende oppsett
 
-1. Opprette et arrangement med klasser og påmeldte. Gjerne bruk et eksisterende arrangement i Eventor så lenge du ikke trenger å laste opp startlister eller resultater.
+1. Opprette et arrangement med klasser og påmeldte. Gjerne bruk et eksisterende arrangement i Eventor. Så lenge du ikke laster opp startlister eller resultater så går det fint. 
+   Man kan også opprette et arrangement på Eventor sin testserver.
 2. Opprett en stasjon av typen ***Emit USB Reader Protokoll 250 (gammel)*** med standard innstillinger
 3. Opprette løyper manuelt eller via import. Sett gjerne en relevant løypelengde. Simulatoren tar utgangspunkt i løypelenden for å generere noenlunde realistiske tider.
 4. Tildel løypene til klassene som skal testes. Klassene må en løype for at testen skal fungere.
 
 ### Generere resultater
 
-1. [Opprett denne oppgaven](/nb/tasks#opprett-egendefinert-oppgave)
-2. Gå til ***Tidtaking > Stasjonsdata*** og kjør denne oppgaven
+1. [Opprett oppgaven](/nb/tasks#create) (egendefinert oppgave)
+2. Sett ønskede innstillinger (se oversikt under)
+3. Gå til ***Tidtaking > Stasjonsdata*** og kjør oppgaven
 
 Oppgaven kan styres av en tidsplan for å automatisk generere resultater over tid. 
 Sett da gjerne et lavt antall resultater per kjøring, samt et passende intervall på tidsplanen.
 
 Oppgaven genererer resultater helt til alle påmeldinger har et resultat.
 
-### Konfigurasjon
+### Innstillinger
 
 | Innstilling                     | Beskrivelse                                                                                                                        |
 |---------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
