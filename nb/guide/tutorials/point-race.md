@@ -28,7 +28,7 @@ Pr. nå må lag opprettes som personer. Støtte for lag kommer i 2025.
 :::
 
 5. Opprett oppgave for resultater
-   - [Opprett egendefinert oppgave](/nb/tasks#opprett-egendefinert-oppgave) med jobb [Point Results](/nb/tasks/point-results)
+   - [Opprett egendefinert oppgave](/nb/tasks#create) med jobb [Point Results](/nb/tasks/point-results)
 6. [Opprett stasjon for avlesing](/nb/resources/event/stations)
    - Løpsstasjonen må minimum ha tidtakingsdata-typene ***Poeng*** og ***Status***. Enkelte poengberegninger kan trenge flere typer.
 7. [Tidtaking](/nb/guide/timing)
