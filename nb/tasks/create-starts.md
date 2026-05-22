@@ -20,9 +20,15 @@ Klasser med samme løype tildeles starttider etter hverandre, såfremt ikke ***f
 
 Rekkefølgen bestemmes av klasseinnstillingen ***rekkefølge trekking***.
 
-::: warning OBS!
-Hvis du ønsker å plassere løyper etter hverandre må løypene plasseres i samme startbås (innstilling på løypen). Rekkefølgen styres fortsatt på klassene slik at det er mulig å flette klasser med forskjellige løyper.
-:::
+
+#### Startbåser
+
+
+Hvis du ønsker å plassere løyper etter hverandre er det anbefalt å plassere løypene i samme startbås. 
+
+Rekkefølgen styres fortsatt på klassene slik at det er mulig å flette klasser med forskjellige løyper.
+
+OBS! Startbåsen trenger kun å bestå av et navn. Innstillinger som ***første start***, ***startintervall*** og ***startnummerserier*** på startbåsen skal ikke fylles ut.
 
  
 #### Fletting av klasser
@@ -47,6 +53,15 @@ Følgende kolonner støttes:
 Hvis kombinasjonen av klasse, etappe (stafett) og startnummer allerede eksisterer, så oppdateres eksisterende start.
 
 OBS! Hvis verdien i kolonnen COURSE NAME eller START TIME er tom så vil løypen eller starttiden fjernes fra starten.
+
+
+## Opprett starter fra løpsresultater
+
+Dette valget brukes for å opprette starttider til jaktstart basert på enten løpstiden eller totaltiden (flerdagers) i et tidligere løp.
+Man må opprette for én klasse av gangen.
+
+Man må også sette en ***maks tid bak*** som blir fellesstarten for deltakere som er lenger bak en makstiden, eller som ikke er godkjent i tidligere løp. 
+
 
 ## Tildel løype
 
