@@ -12,7 +12,12 @@ category: Results
 Denne oppgaven kan generere poengstillinger basert på strekktider eller sluttider på tvers av arrangement og klasser.
 Oppgaven genererer en rapport (JSON-fil) som Time4o Center kan hente inn og presentere.
 
+Hvis alle tider hentes fra samme arrangement, sammenstilles stillingen per person i arrangementet (personens ID i databasen). 
 
+Hvis tidene hentes fra flere arrangementer vil det være snakk om ulike person-objekter med ulike ID-er i databasen og oppgaven bruker da personens personidentifikator som kan være lik på tvers av arrangementer. 
+Hvis deltageren er påmeldt gjennom Eventor så ligger personen inne med sin Eventor ID og dette går automatisk. 
+Det samme gjelder om Time4o sin direktepåmelding og personen er lagt til via søk.
+ 
 
 ## Oppsett
 
