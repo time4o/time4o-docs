@@ -7,11 +7,12 @@ Time4o kan importere etappeoppsett, påmeldinger og lagoppstillinger fra Eventor
 Det er også mulig å gjenbruke en brikke på flere etapper.
 
 ::: warning Obs!
-Iom. at stafett-støtten er ny og lite brukt ønsker Time4o å være delaktig når stafett arrangeres. Ta kontakt om du ønsker å arrangere stafett i Time4o.
+Iom. at stafett-støtten fortsatt er fersk vil Time4o gjerne være delaktig når stafett arrangeres.
+Ta kontakt om du ønsker å arrangere stafett i Time4o.
 :::
 
-Under følger en grov oversikt over oppsettet til stafett med utgangspunkt arrangementet importeres fra Eventor.
-Flere detaljer kommer etter hvert.
+Under følger en oversikt over oppsettet til stafett med utgangspunkt i at arrangementet importeres fra Eventor.
+
 
 ## Opprette arrangement
 
@@ -55,18 +56,21 @@ og det er svært sjelden disse skal oppretts manuelt
 Etappepåmeldingene er naturligvis uten løpernavn (personer), så når laget er klar må personene legges inn på hver etappe. 
 Her kan man søke i Eventor-registerert tilsvarende individuelle løp.
 
-## Starter
+## Starter (startnummer og gaflinger)
 
-I stafett er starter delt opp i lagstarter og etappestarter. Etappestartene er knyttet mot en lagstart.
+I stafett er ***starter*** delt opp i lagstarter og etappestarter. Etappestartene er knyttet mot en lagstart.
+Når påmeldt lag skal tildeles et startnummer så kobles en lagstart mot lagets lagspåmelding, og tilhørende etappestarter mot hver sin etappepåmelding.
 
-- Etappestarter er i prinsipp det samme som starter i individuelle løp. 
-Etappestarten knyttes mot etappepåmelding, og angir i hovedsak hvilken etappens gafling.
+- Etappestarten angir i hovedsak gaflingen til etappen.
+- Lagstarten angir kun startnummeret til laget
 
-- Lagstarten inneholder kun startnummeret til laget
+
+Hvis en klasse har 4 etapper skal hver lagstart bestå av 4 etappestarter.
+
 
 ### Opprette lagstarter
 
-Den enkleste metoden for å opprette lagstarter er å sette opp startnummerserier og gaflinger i løypeleggerprogrammet og så importere dette i Time4o
+Den enkleste metoden for å opprette lagstarter er å sette opp startnummerserier og gaflinger i løypeleggerprogrammet og så importere dette i Time4o.
 Når løypene importeres så må det hukes av for ***Opprett lagsstarter***. 
 
 OCAD legger all nødvendig informasjon i IOF XML 3.0 fila slik at de kun er den ene fila som skal importeres for å både få på plass løyper og startnummer.
@@ -74,6 +78,8 @@ I andre løypeleggerprogram kan det være at informasjonen om startnummer ligger
 Ta kontakt med Time4o for bistand. 
 
 Alternativt kan lagstarter opprettes ved å importere en excel-fil via oppgaven [Opprett starter](/nb/tasks/create-starts).
+
+[Eksempelfil for import av startnummer og gaflinger](https://docs.google.com/spreadsheets/d/11mMvqZJuSFdrZlcbW_7OH6YLKY4FzwAk/edit?usp=sharing&ouid=115982326307907416767&rtpof=true&sd=true)
 
 I begge tilfeller bør antall startnummer beregnes i forhold til antall kart som skal trykkes. 
 Eventuelt opprett nok, og rydd vekk overflødige lagstarter fra Time4o når antall trykte kart er bestemt.

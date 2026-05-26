@@ -54,6 +54,7 @@ Hvis kombinasjonen av klasse, etappe (stafett) og startnummer allerede eksistere
 
 OBS! Hvis verdien i kolonnen COURSE NAME eller START TIME er tom så vil løypen eller starttiden fjernes fra starten.
 
+[Eksempelfil for import av startnummer og gaflinger i stafett](https://docs.google.com/spreadsheets/d/11mMvqZJuSFdrZlcbW_7OH6YLKY4FzwAk/edit?usp=sharing&ouid=115982326307907416767&rtpof=true&sd=true)
 
 ## Opprett starter fra løpsresultater
 
