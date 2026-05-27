@@ -15,6 +15,7 @@ Forskjellen på de ulike modellen dreier seg i hovedsak hvilken oppløsning, hvi
 
 Det som er viktig for at skriveren skal fungere i Time4o per i dag er at det er mulig å opprette en virtuel COM-port for skriveren. Her følger litt info for de ulike produsentene.
 
+
 - Epson
 
     Installer [Epson TM Virtual Port Driver](https://ftp.epson.com/drivers/pos/TMVirtualPortDriver870c.exe)
@@ -33,9 +34,11 @@ Det som er viktig for at skriveren skal fungere i Time4o per i dag er at det er 
 
   Det kan dessverre være knotete å få lagt til den virtuelle porten for skrivere fra Star, om i det hele tatt mulig. [Ta gjerne kontakt](https://time4o.com/#contact) hvis du har funnet ut noe smart i denne sammenheng.
 
+::: warning OBS!
+Tildel skriveren en COM-port med høyt nummer, for eksempel COM 10. Lave nummer kan komme i konflikt med annen hardware, deriblant Emit sin.
+:::
 
-
-OBS! Det finnes også en annen metode for å koble til skrivere, og det kommer støtte for denne metoden senere. 
+Det finnes også en annen metode for å koble til skrivere, og det kommer støtte for denne metoden senere. 
 Det kan være denne metoden løser utfordringene med Star.
 
 
