@@ -64,6 +64,13 @@ Hvis det er skal tildeles leiebrikker er det også mulig å velge ***Tildel samm
 Bruk oppgaven for å skrive ut [startliste](/nb/tasks/start-list) hvis du trenger en liste over leiebrikker. Velg **Vis kun leiebrikker** og velg ønsket gruppering, sortering etc.
 
 
+## Tips!
+
+I arrangement med flere løp kan det være nyttig å kjøre oppgaven mellom hvert løp med følgende innstillinger for å overføre alle brikkeendringer til neste løp.
+
+![](assign-cards-1.png)
+
+
 ## Innstillinger
 
 ### Kilde
