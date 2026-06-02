@@ -57,7 +57,7 @@ Hvis arrangementet inneholder flere løp er det mulig å tildele brikker til fle
 
 Hvis det er skal tildeles leiebrikker er det også mulig å velge ***Tildel samme brikke til påmelding med samme person*** slik at en person har samme leiebrikke i alle løp.
 
-
+![](assign-cards-1.png)
 
 ## Utskrift av leiebrikker
 
@@ -68,7 +68,7 @@ Bruk oppgaven for å skrive ut [startliste](/nb/tasks/start-list) hvis du trenge
 
 I arrangement med flere løp kan det være nyttig å kjøre oppgaven mellom hvert løp med følgende innstillinger for å overføre alle brikkeendringer til neste løp.
 
-![](assign-cards-1.png)
+![](assign-cards-2.png)
 
 
 ## Innstillinger
