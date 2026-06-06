@@ -31,7 +31,22 @@ Opprett to nye stasjoner (dette vil i framtiden skje automatisk)
 2. Stasjon med stasjonstype ***stafettomstart***. Velg typer ***starttid*** og ***status***.
   Prioritet løpsstasjon kan være ***11*** og prioritet data ***bruk siste data***
 
-I tillegg må avlesingsstasjonen tilpasses slik at den kun leverer tidtakingsdata med type ***Måltid***, ***Strekktid*** og ***Status***.
+### Avlesingsstasjoner
+
+Avlesingsstasjonen må tilpasses slik at den **KUN** leverer tidtakingsdata med type ***Måltid***, ***Strekktid*** og ***Status***.
+
+(Hvis den leverer ***Starttid*** så vil det gi feil etappetider.) 
+
+### Mållinjestasjon
+
+Ved bruk av stasjon på mållinja som ETS så skal stasjonen settes opp med  
+
+
+### Mellomtidsstasjoner
+
+Mellomtidsstasjoner skal **KUN** levere mellomtid.
+
+(Hvis den leverer ***Starttid*** så vil det gi feil etappetider.)
 
 
 ## Klasser
@@ -95,8 +110,31 @@ Tildeling kan gjøres via trekking (tilfeldig rekkefølge), seeding og seedinggr
 ## Tidtaking
 
 
-### Omstart
+## Omstart
 
-Mer info kommer...
+Time4o støtter ubegrenset antall omstarter. 
+En omstart settes per løper og er i prinsipp kun en ny starttid som vil overstyre starttiden fra vekslingen. (Omstartsstasjonen har bedre prioritet enn vekslingsstasjonen)
+
+Heldivis er det enkelt å sette omstart på flere løpere av gangen. 
+
+1. Gå til ***Påmeldinger*** > ***Etappepåmeldinger***
+2. Bruk kolonnefiltrene eller søk for å finne løperne som gikk ut i omstart.
+   - Filtrer ***Status*** med valget ***Vis tomme***, samt status ***Sjekket*** hvis det brukes brikkesjekk. Listen vil nå vise alle som ikke har startet i stafetten.
+   - Hvis omstarten gjelder bestemt klasse eller etappe så må det filtreres på dette i tillegg.
+   - Alternativt kan man søke på startnummer. Søk på flere startnummer separert med komma (eks. 121,135,175)
+
+![](relay-1.png)
+
+3. Startmannskapet bør notere startnummer på de som har gått ut i omstart, og du bør avstemme disse startnumrene mot listen du har i Time4o. Hvis man venter med å sette omstarten kan lag ha "vekslet" etter omstarten gikk og løperen som gikk ut i omstarten har rukket å få status ***Startet***, og dermed ikke vises.
+4. Marker alle etappepåmeldingen som gikk ut i omstart, og velg radhandlingen ***Opprett stafettomstart*** fra menyen. Sett riktig starttid og trykk ***OK***
 
 
+## Meldeposter
+
+Meldepostoppsett vil ikke alltid overføres automatisk til liveresultater. 
+Kjør derfor oppgaven ***Center: Synk løp- og klassedata*** med valget ***Full synk*** for å tvinge over meldepostoppsettet.
+
+
+## Samme brikke på flere etapper
+
+Time4o støtter også at samme brikke kan brukes på flere etapper i stafetten. 
