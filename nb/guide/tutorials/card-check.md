@@ -48,12 +48,12 @@ Det er anbefalt å filtrere stasjonsdata-tabellen etter brikkesjekkens stasjon f
 Stasjonsdata som ikke knyttes mot en påmelding, dvs. får en feilmelding, håndteres på følgende måte:
  
 1. Klikk på stasjonsdata-raden.
-2. Huk av for ***Overstyr påmelding***
+2. Huk av for ***Koble og lås stasjonsdata til påmelding***
 3. Søk opp riktig påmelding
-4. Huk av for ***Oppdater påmelding og person med brikkenummer*** (som regel huket av)
+4. Huk av for ***Oppdater valgt påmelding og person med brikkenummer*** (som regel huket av)
 5. Lagre
 
-Brikkenummeret vil legges på påmeldingen og påmeldingens person. Gammelt brikkenummer slettes. 
+Brikkenummeret vil legges på påmeldingen og påmeldingens person, samt fjernes fra andre påmeldinger og personer. 
 
 ::: warning Obs!
 En betjent brikkesjekk trenger ikke nødvendigvis en infoskjerm, 
