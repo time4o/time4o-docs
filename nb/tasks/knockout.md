@@ -32,6 +32,17 @@ Husk at det er mulig å lage så mange oppgaver som man vil slik at man kan gjø
 forhånd og så kjøre oppgavene under arrangementet etter hvert som klassene er klare.
 :::
 
+::: warning OBS!
+Oppgaven lager en kobling mellom kildepåmeldingen og målpåmeldingen ved å legge kildepåmeldingens ID som identifikator på målpåmeldingen.
+
+Dette gjør at oppgaven kan kjøres flere ganger uten å skape duplikater.
+
+Ulempen er at man ikke kan bruke oppgaven til å fordele samme påmeldingen til ulike målklasser.
+Den andre gangen oppgaven kjøres så vil en eksisterende målpåmelding flyttes til ny klasse i stedenfor at det opprettes enda en kopi. 
+
+Det er svært sjelden dette er en problemstilling, men det kan være et tema om f.eks. alle i kvalifiseringen både skal løpe kvartfinaler og semifinaler.
+:::
+
 ## NM Knockout 2026
 
 [Se Google Regneark med oppsett for NM Knockout 2026](https://docs.google.com/spreadsheets/d/1e-EOacWF32KeCJrEHW1YJjQ5QFVljnw-KnG8qLGoj_s)
