@@ -24,30 +24,24 @@ Importer arrangementet fra Eventor.
 
 ## Stasjoner
 
-Opprett to nye stasjoner (dette vil i framtiden skje automatisk)
+Løp som er definert som stafetter får automatisk opprettet to systemstasjoner for veksling og omstart. 
+Disse stasjonen brukes internt av Time4o for å sette vekslingstider og omstartstider.
 
-1. Stasjon med stasjonstype ***stafettveksling***. Velg typer ***starttid*** og ***status***. 
-   Prioritet løpsstasjon kan være ***12*** og prioritet data ***bruk første data***
-2. Stasjon med stasjonstype ***stafettomstart***. Velg typer ***starttid*** og ***status***.
-  Prioritet løpsstasjon kan være ***11*** og prioritet data ***bruk siste data***
+OBS! Det er viktig at påfølgende stasjoner ikke leverer ***Starttid*** da det vil gi feil etappetider.
 
 ### Avlesingsstasjoner
 
 Avlesingsstasjonen må tilpasses slik at den **KUN** leverer tidtakingsdata med type ***Måltid***, ***Strekktid*** og ***Status***.
 
-(Hvis den leverer ***Starttid*** så vil det gi feil etappetider.) 
+OBS! Hvis det benyttes stasjon på mållinja skal avelsingsstasjonern **IKKE** leverer ***Måltid***.
 
 ### Mållinjestasjon
 
-Ved bruk av stasjon på mållinja som ETS så skal stasjonen settes opp med  
-
+Ved bruk av stasjon på mållinja som ETS så skal stasjonen settes opp med  type ***Måltid*** og ***Status*** der status er låst til ***Fullført***.
 
 ### Mellomtidsstasjoner
 
 Mellomtidsstasjoner skal **KUN** levere mellomtid.
-
-(Hvis den leverer ***Starttid*** så vil det gi feil etappetider.)
-
 
 ## Klasser
 
@@ -134,6 +128,7 @@ Heldivis er det enkelt å sette omstart på flere løpere av gangen.
 Meldepostoppsett vil ikke alltid overføres automatisk til liveresultater. 
 Kjør derfor oppgaven ***Center: Synk løp- og klassedata*** med valget ***Full synk*** for å tvinge over meldepostoppsettet.
 
+OBS! Meldepostoversikten vil per i dag ikke vises meldepostene i stafetter. 
 
 ## Samme brikke på flere etapper
 
