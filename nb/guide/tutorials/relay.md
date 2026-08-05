@@ -132,4 +132,4 @@ OBS! Meldepostoversikten vil per i dag ikke vises meldepostene i stafetter.
 
 ## Samme brikke på flere etapper
 
-Time4o støtter også at samme brikke kan brukes på flere etapper i stafetten. 
+Time4o støtter også at samme brikke kan brukes på flere etapper i stafetten, men med noen begrensninger. Ta kontakt med Time4o for mer informasjon.
