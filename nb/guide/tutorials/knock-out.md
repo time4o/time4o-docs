@@ -119,4 +119,4 @@ En oppgave for å produsere endelige resultatliste etter NM-regler er under arbe
 
 ## Liveresultater
 
-Kommer...
+LiveRes støtter gruppering av heat basert på navn. Kontakt Time4o support for mer informasjon.
