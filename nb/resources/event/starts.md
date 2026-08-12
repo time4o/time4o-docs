@@ -51,7 +51,8 @@ Begge importene kan fint utføres flere ganger.
 Før importene bør det utføres en import av påmeldinger fra Eventor slik at alle påmeldinger er i Time4o.
 
 ::: warning OBS!
-Hvis arrangementet har flere WRE-løp, og de består av både sprint og lang/mellom så bør løpene opprettes som ulike arrangementer i Time4o iom. at poengene lagres på personen, og det er ulik ranking i sprint og lang/mellom.
+Husk at det er ulik WRE-ranking i sprint og lang/mellom.
+Hvis arrangementet har både sprint og lang/mellom med WRE-status så kan f.eks. sprint-poengene importere til feltet ***PERSON POINTS 1*** og lang/mellom til ***PERSON POINTS 2***.
 :::
 
 ### Steg 1: Importer IOF ID-er
@@ -80,7 +81,7 @@ Vi har nå importert IOF ID-er på personene i Time4o.
    - **Husk at det er ulik ranking for sprint og lang/mellom!**
 3. Åpne csv-fila og gjør følgende endringer:
    - Endre kolonneoverskriften ***IOF ID*** til ***PERSON IDENTIFIER:IOF***
-   - Endre kolonneoverskriften ***WRE points" til ***PERSON POINTS***
+   - Endre kolonneoverskriften ***WRE points" til ***PERSON POINTS 1*** eller ***PERSON POINTS 2***
    - Øvrige kolonner kan ligge slik de er
 4. Lagre fila (la den være i csv-format) 
 5. Gå til ***Påmeldinger*** og kjør oppgaven ***Importér påmeldinger*** med følgende innstillinger:

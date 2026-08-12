@@ -77,20 +77,21 @@ Obligatoriske kolonner (minimum én)
 
 Valgfrie kolonner
 
-| Kolonnetittel        | Beskrivelse                                                                                                                        |
-|----------------------|------------------------------------------------------------------------------------------------------------------------------------|
-| PERSON SEX           | Personens kjønn. Mann kan oppgis som M, Male, Man, Men, Mann, Gutt. Kvinne kan oppgis som F, Female, Woman, Women, Kvinne, Jente   |
-| PERSON BIRTHYEAR | Personens fødselsår. Format: 2025                                                                                                  |
-| PERSON BIRTHDATE     | Personens fødselsdato. Format: 2025-12-31                                                                                          |
-| PERSON SEEDING       | Personens seedingverdi (seedinggruppe)                                                                                             
-| PERSON POINTS        | Personens poeng (typisk WRE-poeng)                                                                                                 
-| PERSON BIB NO        | Personens startnummer. OBS! Kun til flerdagers eller andre særtilfeller. Bruk BIB NO i vanlige løp.                                
-| CLASS NAME           | Klassenavn. Obligatorisk hvis det skal opprettes nye påmeldinger. Klassen opprettes om den ikke eksisterer.                        
-| ORGANISATION NAME    | Navn på organisasjon (klubb). Organisasjonen opprettes om den ikke eksisterer.                                                     
-| CARD NO              | Brikkenummer. Brikketype kan angis som argument, alternativt benyttes standard brikketype.                                         |
-| BIB NO               | Startnummer. Oppretter start med angitte startnummer.                                                                              |
-| START TIME           | Starttid. Oppretter start med angitte starttid. Format: 2025-12-31 23:59:59. Dato kan utelates og løpets dato blir i såfall brukt. |
-| COURSE NAME          | Løypenavn. Oppretter start med angitte løype. Kun nødvendig ved individuell gafling.                                               |
+| Kolonnetittel     | Beskrivelse                                                                                                                        |
+|-------------------|------------------------------------------------------------------------------------------------------------------------------------|
+| PERSON SEX        | Personens kjønn. Mann kan oppgis som M, Male, Man, Men, Mann, Gutt. Kvinne kan oppgis som F, Female, Woman, Women, Kvinne, Jente   |
+| PERSON BIRTHYEAR  | Personens fødselsår. Format: 2025                                                                                                  |
+| PERSON BIRTHDATE  | Personens fødselsdato. Format: 2025-12-31                                                                                          |
+| PERSON SEEDING    | Personens seedingverdi (seedinggruppe)                                                                                             
+| PERSON POINTS 1   | Personens poeng (typisk WRE-poeng, f.eks. skogsdistanser )                                                                                                 
+| PERSON POINTS 2   | Personens poeng (typisk WRE-poeng, f.eks. sprint)                                                                                                 
+| PERSON BIB NO     | Personens startnummer. OBS! Kun til flerdagers eller andre særtilfeller. Bruk BIB NO i vanlige løp.                                
+| CLASS NAME        | Klassenavn. Obligatorisk hvis det skal opprettes nye påmeldinger. Klassen opprettes om den ikke eksisterer.                        
+| ORGANISATION NAME | Navn på organisasjon (klubb). Organisasjonen opprettes om den ikke eksisterer.                                                     
+| CARD NO           | Brikkenummer. Brikketype kan angis som argument, alternativt benyttes standard brikketype.                                         |
+| BIB NO            | Startnummer. Oppretter start med angitte startnummer.                                                                              |
+| START TIME        | Starttid. Oppretter start med angitte starttid. Format: 2025-12-31 23:59:59. Dato kan utelates og løpets dato blir i såfall brukt. |
+| COURSE NAME       | Løypenavn. Oppretter start med angitte løype. Kun nødvendig ved individuell gafling.                                               |
 
 
 Ta kontakt med Time4o support om du savner kolonner i importen.
