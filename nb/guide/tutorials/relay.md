@@ -33,7 +33,7 @@ OBS! Det er viktig at påfølgende stasjoner ikke leverer ***Starttid*** da det 
 
 Avlesingsstasjonen må tilpasses slik at den **KUN** leverer tidtakingsdata med type ***Måltid***, ***Strekktid*** og ***Status***.
 
-OBS! Hvis det benyttes stasjon på mållinja skal avelsingsstasjonern **IKKE** leverer ***Måltid***.
+OBS! Hvis det benyttes stasjon på mållinja skal avlesingsstasjonen **IKKE** levere ***Måltid***.
 
 ### Mållinjestasjon
 
@@ -45,7 +45,7 @@ Mellomtidsstasjoner skal **KUN** levere mellomtid.
 
 ## Klasser
 
-Ved stafett vises Etappe-fanen på klasse. Etappe-oppsette importeres fra Eventor, men kan også settes opp manuelt i Time4o hvis Eventor ikke benyttes.
+Ved stafett vises Etappe-fanen på klasse. Etappe-oppsettet importeres fra Eventor, men kan også settes opp manuelt i Time4o hvis Eventor ikke benyttes.
 
 
 ## Påmeldinger
