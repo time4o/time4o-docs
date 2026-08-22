@@ -33,9 +33,11 @@ Løypa må minimum inneholde startpost og målpost.
 
 ### Makstid løype
 
-Deltageren får poengstraff hvis angitt makstid på løypa overstiges. Makstid oppgis i minutter og poengstraff tildeles pr. påbegynte minutt over makstiden.
+Deltageren får poengstraff hvis angitt makstid på løypa overstiges. 
+Regelen angis i feltet "Poeng" på løypa og angis i formatet "MAKSTID,INTERVALL,POENGSTRAFF" der makstid og intervallet oppgis i sekunder.
 
-Regelen angis i feltet "Poeng" på løypa og angis i formatet "MAKSTID,POENGSTRAFF"
-"60,-5" betyr at makstiden er 60 minutter og poengstraffen er -5 poeng pr. påbegynte minutt over 60 minutter. En deltager med tiden 62:34 får -15 poeng.
+"3600,30,-5" betyr at makstiden er 3600 sekunder (60 minutter), intervallet er 30 sekunder og poengstraffen -5 poeng, noe som betyr at deltageren får -5 poeng pr. påbegynte 30. sekundr. 
+
+En deltager med tiden 62:34 får -30 poeng.
 
 Løypa må minimum inneholde startpost og målpost.
