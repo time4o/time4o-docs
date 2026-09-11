@@ -81,7 +81,7 @@ Vi har nå importert IOF ID-er på personene i Time4o.
    - **Husk at det er ulik ranking for sprint og lang/mellom!**
 3. Åpne csv-fila og gjør følgende endringer:
    - Endre kolonneoverskriften ***IOF ID*** til ***PERSON IDENTIFIER:IOF***
-   - Endre kolonneoverskriften ***WRS points" til ***PERSON POINTS 1*** eller ***PERSON POINTS 2***
+   - Endre kolonneoverskriften ***WRS points*** til ***PERSON POINTS 1*** eller ***PERSON POINTS 2***
    - Øvrige kolonner kan ligge slik de er
 4. Lagre fila (la den være i csv-format) 
 5. Gå til ***Påmeldinger*** og kjør oppgaven ***Importér påmeldinger*** med følgende innstillinger:
