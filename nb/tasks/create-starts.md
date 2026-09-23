@@ -1,7 +1,7 @@
 ---
 job: Create Starts
 title: Opprett starter
-description: 
+description:
 category: Starts
 ---
 
@@ -16,7 +16,7 @@ Ved individuell gafling består en start også av en løype.
 
 Antall starter som bli opprettet for en klassen tilsvarer antall påmeldte i klassen pluss ledige starter angitt på klassen.
 
-Klasser med samme løype tildeles starttider etter hverandre, såfremt ikke ***først start*** er satt på klassen. 
+Klasser med samme løype tildeles starttider etter hverandre, såfremt ikke ***først start*** er satt på klassen.
 
 Rekkefølgen bestemmes av klasseinnstillingen ***rekkefølge trekking***.
 
@@ -24,13 +24,13 @@ Rekkefølgen bestemmes av klasseinnstillingen ***rekkefølge trekking***.
 #### Startbåser
 
 
-Hvis du ønsker å plassere løyper etter hverandre er det anbefalt å plassere løypene i samme startbås. 
+Hvis du ønsker å plassere løyper etter hverandre er det anbefalt å plassere løypene i samme startbås.
 
 Rekkefølgen styres fortsatt på klassene slik at det er mulig å flette klasser med forskjellige løyper.
 
 OBS! Startbåsen trenger kun å bestå av et navn. Innstillinger som ***første start***, ***startintervall*** og ***startnummerserier*** på startbåsen skal ikke fylles ut.
 
- 
+
 #### Fletting av klasser
 
 Hvis du ønsker å flette klasser med samme løype må ***første start*** settes på alle involverte klasser selv om en av klassene arver riktig ***første start*** fra løpet.
@@ -39,7 +39,14 @@ Hvis du ønsker å flette klasser med samme løype må ***første start*** sette
 
 ### IOF XML 3.0 (StartList)
 
-Hvis man kjører en poengserie i Eventor med jaktstart tilslutt så kan Eventor generer en jaktstartlist i dette formatet.
+Hvis man kjører en poengserie i Eventor med jaktstart tilslutt så kan Eventor generer en jaktstartliste i dette formatet.
+
+Det er ikke mulig (?) å definere i Eventor at løpere som er en mer enn en gitt tid bak lederen skal gå ut i fellesstart.
+Det håndterer derimot Time4o ved at man definerer tid for fellesstart samt grensen for fellesstart på klasse eller løpsnivå.
+(Altså man kan si at alle som er mer enn 15 minutter bak leder skal gå ut i fellesstart 20 minutter bak leder)
+
+Når XML importeres endrer Time4o starttidene i forhold til disse innstillingene.
+
 
 ### Excel
 
@@ -61,7 +68,7 @@ OBS! Hvis verdien i kolonnen COURSE NAME eller START TIME er tom så vil løypen
 Dette valget brukes for å opprette starttider til jaktstart basert på enten løpstiden eller totaltiden (flerdagers) i et tidligere løp.
 Man må opprette for én klasse av gangen.
 
-Man må også sette en ***maks tid bak*** som blir fellesstarten for deltakere som er lenger bak en makstiden, eller som ikke er godkjent i tidligere løp. 
+På samme måte som ved import av IOF XML StartList kan man definere tid for fellesstart samt grensen for fellesstart på klasse eller løpsnivå.
 
 
 ## Tildel løype
@@ -72,11 +79,11 @@ Alle løypene (gaflingene) legges på klassen. Når startene opprettes vil de f�
 
 ## Konfigurasjon
 
-| Innstilling                | Beskrivelse                                                           |
-|----------------------------|-----------------------------------------------------------------------|
-| Løp                        | Løpet det skal opprettes starter for.                                 |
-| Klasse                     | Klassene det skal opprettes starter for.                              |
-| Slett eksisterende starter | Slett eksisterende starter for valgte klasser før opprettelse av nye. |
-| Opprett fra                | Hvor skal starttidene hentes fra.                                     |
-| Tildel løype               | Tildel løyper (gaflinger) når startene opprettes.                    |
+| Innstilling                   | Beskrivelse                                                           |
+|-------------------------------|-----------------------------------------------------------------------|
+| Løp                           | Løpet det skal opprettes starter for.                                 |
+| Klasse                        | Klassene det skal opprettes starter for.                              |
+| Slett eksisterende starter    | Slett eksisterende starter for valgte klasser før opprettelse av nye. |
+| Opprett fra                   | Hvor skal starttidene hentes fra.                                     |
+| Automatisk tildeling av løype | Tildel løyper (gaflinger) når startene opprettes.                    |
 
