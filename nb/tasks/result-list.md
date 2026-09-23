@@ -1,6 +1,6 @@
 ---
-job: ExportResults
-title: Eksportér resultater
+job: ResultList
+title: Resultatliste
 description: 
 category: Results
 ---
