@@ -4,7 +4,7 @@ Time4o støtter jaktstart og oppsett av startliste basert på andre resultater i
 
 Ved jaktstart kan enkeltklasser eller hele løpet settes opp som jaktsstart (starttype).
 
-Det er også støtte for jaktstart i flerdagesløp. 
+Det er også støtte for jaktstart i flerdagersløp. 
 
 ## Startliste
 
@@ -27,7 +27,7 @@ Tildelingen kan gjøres i flere omganger. Dette betyr at man kan opprette starte
 Etter hvert som det kommer inn etteranmeldinger kan man kjøre oppgaven på nytt og de etteranmeldte vil får tildelt sin starttid.
 
 ::: warning OBS!
-Hvis deltagere kun er påmeldt jaktstarten, så vil de ikke ha en start(starttid) tilgjengelig. For disse må starter opprettes manuelt.  
+Hvis deltagere kun er påmeldt jaktstarten, så vil de ikke ha en start(starttid) tilgjengelig. For disse må starter opprettes og tildeles manuelt.  
 :::
 
 
