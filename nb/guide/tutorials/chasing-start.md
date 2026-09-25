@@ -44,7 +44,7 @@ Hent fram kolonnene **Totalplassering**, **Totaltid** og **Totaltid bak** og vel
 ### Eventor
 
 Ved opplasting av resultater til Eventor brukes nettotider som standard. 
-I oppgaven  [Resultatliste](/nb/tasks/export-results.md) kan man velge **Bruk totaltid i jaktstart-klasser** for heller å laste opp totaltidene.
+I oppgaven  [Eksportér resultater](/nb/tasks/export-results.md) kan man velge **Bruk totaltid i jaktstart-klasser** for heller å laste opp totaltidene.
 I begge tilfeller kan man lage en PDF-resultatliste som man legger i Eventor slik at både netto løpstider og jakstartresultater er tilgjengelig.
 
 ### Liveresultater
