@@ -24,6 +24,7 @@ Gjør en siste import av påmeldinger rett etter fristen for lagendringer har g�
 :::
 
 3. [Opprett løyper](/nb/resources/event/courses_controls)
+   - Hvis du [importerer](/nb/tasks/import-courses.md) fra IOF XML kan du angi løypepostpoeng her.
    - Sett ønsket poengberegning for løypene. [Beskrivelse av poengberegninger](/nb/resources/common/point-calculations). Husk at det skal opprettes én løype per poengberegning!
 4. [Opprett klasse](/nb/resources/event/classes)
    - Sett ***løypehåndtering*** til ***alle løyper - valgfri rekkefølge***

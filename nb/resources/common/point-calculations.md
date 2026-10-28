@@ -2,6 +2,8 @@
 
 I poengløp kan en løype representere ulike typer poengberegninger. En klasse kan ha flere løyper og dermed mange ulike poengberegninger i samme konkurranse. 
 
+Kun heltallspoeng er støttet.
+
 ### Per poststempling
 
 Deltageren får poeng per stemplede løypepost. Rekkefølgen er valgfri. 

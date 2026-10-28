@@ -9,7 +9,8 @@ category: Courses
 
 ### Beskrivelse
 
-Oppgaven importerer løypedata fra fil i formatet IOF XML 3.0 (CourseData) og oppretter [løyper, poster og løypeposter](/nb/resources/event/courses_controls).
+Oppgaven importerer løypedata fra fil i formatet [IOF XML 3.0](https://github.com/international-orienteering-federation/datastandard-v3/blob/master/IOF.xsd)
+(`CourseData`) og oppretter [løyper, poster og løypeposter](/nb/resources/event/courses_controls).
 Fila eksporteres fra løypeleggerprogrammet.
 
 Løyper kan importeres flere ganger, og løypene i Time4o blir da oppdatert med nye løypeposter. 
@@ -37,7 +38,15 @@ I løypeleggerprogrammene er det ofte ikke mulig å sette koden på startposten 
 I enkelte løypefiler er det angitt hvilke poster som er startposter og målposter. I motsatt fall gjør importen en gjetning. 
 Poster med kode som starter på "S" antas å være startposter. Poster med kode som starter på "F" eller "M" antas å være målposter.
 
+### Poengløp
 
+For [poengløp](/nb/guide/tutorials/point-race.md) kan poengene per løypepost defineres i XML-filen.
+Bare heltall er støttet.
+
+```xml
+<CourseControl type="Control"><Control>101</Control><Score>7</Score></CourseControl>
+<CourseControl type="Control"><Control>102</Control><Score>3</Score></CourseControl>
+```
 
 ### Konfigurasjon
 
