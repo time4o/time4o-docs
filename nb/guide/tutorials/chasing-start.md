@@ -30,6 +30,15 @@ Etter hvert som det kommer inn etteranmeldinger kan man kjøre oppgaven på nytt
 Hvis deltagere kun er påmeldt jaktstarten, så vil de ikke ha en start(starttid) tilgjengelig. For disse må starter opprettes og tildeles manuelt.  
 :::
 
+## Startklokke
+
+I jaktstart er det ofte praktisk å ha en startklokke som viser når deltagerne skal starte. Her er noen alternativer:
+
+- Emit startklokke: Oppgaven [Eksporter startliste](/nb/tasks/export-starts) kan eksporter starttider i formatet **Emit startklokke**.
+- Nettsiden [StartDisplay](https://oj-oj.net/startdisplay.html) kan hente startlista som XML via delingslink. Laget av Jo Inge Fjellstad.
+- Android-appen [Go! - Startklokke](https://play.google.com/store/apps/details?id=se.tg3.startclock) kan hente in startlista som XML ved å skanne delingslinken sin QR-kode.
+
+
 
 ## Resultater
 
