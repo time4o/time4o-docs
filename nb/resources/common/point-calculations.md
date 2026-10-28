@@ -41,3 +41,20 @@ Regelen angis i feltet "Poeng" på løypa og angis i formatet "MAKSTID,INTERVALL
 En deltager med tiden 62:34 får -30 poeng.
 
 Løypa må minimum inneholde startpost og målpost. Hvis klassens **Kilde starttid** er **Startliste** vil tiden beregnes fra klassens først start eller påmeldingens starttid. Hvis **Kilde starttid** er **Tidtaking (Brikketid)** vil tiden beregnes fra stempling/nulling på startpost.
+
+### Kjønn og alder
+
+Poeng gis til deltager basert på kjønn og alder.
+
+Regelen angis i feltet "Poeng" på løypa og angis i formatet "KJØNN ALDER:POENG" og hvert kriterium skilles med komma eller linjeskift.
+- Kjønn er M (Male) eller F (Female)
+- Alder angis som eksakt alder eller et intervall og er alderen deltageren har 31. desember. Intervall angis med bindestrek. 
+- Poeng kan være positivt eller negativt heltall.
+
+Regelen "M-19:10,M20-39:5,M40-:8,F35:3" betyr:
+- Menn opptil 19 år får 10 poeng
+- Menn fra 20 til 39 år får 5 poeng
+- Menn fra 40 år og eldre får 8 poeng. 
+- Kvinner med alder 35 år får 3 poeng.
+
+Alle kvinner som ikke er 35 år får 0 poeng da ingen regel dekker de.
