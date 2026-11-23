@@ -2,7 +2,7 @@
   "name": "time4o-docs",
   "type": "module",
   "devDependencies": {
-    "vitepress": "^1.0"
+    "vitepress": "^2.0.0-alpha.21"
   },
   "scripts": {
     "docs:dev": "vitepress dev --port 5170",

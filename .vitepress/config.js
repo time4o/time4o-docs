@@ -141,11 +141,9 @@ export default {
     search: {
       provider: 'local',
       options: {
-        // TODO Update this to async when upgrading to vitepress v2
-        // https://dev.to/ahandsel/vitepress-debug-frontmattertitle-is-appearing-in-search-results-k60
-        _render(src, env, md) {
+        async _render(src, env, md) {
           // First pass: render to populate env.frontmatter and other metadata
-          md.render(src, env)
+          await md.renderAsync(src, env)
 
           // Use empty object as fallback if frontmatter is undefined
           const fm = env.frontmatter ?? {}
@@ -169,7 +167,7 @@ export default {
           rewritten = rewritten.replace(/\(?\{\{\s*\$frontmatter\.[^}]*}}\)?/g, '')
 
           // Final render used for indexing
-          return md.render(rewritten, env)
+          return await md.renderAsync(rewritten, env)
         },
       }
     },
